@@ -1,0 +1,3 @@
+[submodule "topological-autoencoders"]
+	path = topological-autoencoders
+	url = https://github.com/BorgwardtLab/topological-autoencoders.git
