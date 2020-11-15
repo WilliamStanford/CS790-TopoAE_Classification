@@ -11,6 +11,8 @@
    1. Recreate results from Topological Autoencoders on MNIST/CIFAR10, I dont think we need to worry about spheres dataset
      a) we can use other models with/without the topology loss they used as baselines
      b) should be able to train with navigating to the correct directory and then using, follow their installation instructions for requirements.txt
+     
+   When running, output will be stored in the directory denoted by file_storage, please make sure this is occuring properly. Model parameters will be stored here which we will use for classification.
 
      python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cuda' --file_storage=BASEDIR
      
