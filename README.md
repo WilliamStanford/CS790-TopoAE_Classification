@@ -60,7 +60,7 @@
    2. Create new model with just the enocder and a classification layer after the final layer of the encoder
      a) potentially project weights from the second to last layer as well, the final layer is usually only 
         two units in their implementation, this might not be very informative for a linear classifier
-     - done - added to the DeepAE and LinearAE models as classification layer - uses the transpose of the latent space
+     - done - added to the DeepAE and LinearAE models as classification layer 
 
    3. Fine tune on image classification, 
      a) compare to random initialization
