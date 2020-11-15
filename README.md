@@ -12,13 +12,50 @@
      a) we can use other models with/without the topology loss they used as baselines
      b) should be able to train with navigating to the correct directory and then using, follow their installation instructions for requirements.txt
 
-     python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cuda'
+     python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cuda' --file_storage=BASEDIR
      
    might need to change device
    
-     python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cpu'
+     python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cpu' --file_storage=BASEDIR
 
   [ I Need Help With Training, my laptop is a toaster ]
+  
+ 1. TopoRegEdgeSymmetric - MNIST
+    
+         python -m exp.train_model with experiments/train_model/best_runs/MNIST/TopoRegEdgeSymmetric.json device='cuda' --file_storage=TopoRegEdgeSymmetric_MNIST
+ 
+ 2.  LinearAE-TopoRegEdgeSymmetric - MNIST 
+    
+         python -m exp.train_model with experiments/train_model/best_runs/MNIST/LinearAE-TopoRegEdgeSymmetric.json device='cuda' --file_storage=LinearAE-TopoRegEdgeSymmetric_MNIST
+ 
+ 3. Vanilla - MNIST
+    
+         python -m exp.train_model with experiments/train_model/best_runs/MNIST/Vanilla.json device='cpu' --file_storage=Vanilla_MNIST
+
+ 4. TopoRegEdgeSymmetric - FashionMNIST
+    
+         python -m exp.train_model with experiments/train_model/best_runs/FashionMNIST/TopoRegEdgeSymmetric.json device='cuda' --file_storage=TopoRegEdgeSymmetric_FasionMNIST
+ 
+ 5. LinearAE-TopoRegEdgeSymmetric - FashionMNIST 
+    
+        python -m exp.train_model with experiments/train_model/best_runs/FashionMNIST/LinearAE-TopoRegEdgeSymmetric.json device='cuda' --file_storage=LinearAE-TopoRegEdgeSymmetric_FashionMNIST
+ 
+ 6. Vanilla - FashionMNIST
+    
+        python -m exp.train_model with experiments/train_model/best_runs/FashionMNIST/Vanilla.json device='cpu' --file_storage=Vanilla_FashionMNIST
+
+ 7.  TopoRegEdgeSymmetric - CIFAR10
+    
+         python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/TopoRegEdgeSymmetric.json device='cuda' --file_storage=TopoRegEdgeSymmetric_CIFAR
+ 
+ 8.  LinearAE-TopoRegEdgeSymmetric - CIFAR10 
+    
+         python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/LinearAE-TopoRegEdgeSymmetric.json device='cuda' --file_storage=LinearAE-TopoRegEdgeSymmetric_CIFAR10
+ 
+9.  Vanilla - CIFAR10
+    
+        python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/Vanilla.json device='cpu' --file_storage=Vanilla_CIFAR10
+    
   
    2. Create new model with just the enocder and a classification layer after the final layer of the encoder
      a) potentially project weights from the second to last layer as well, the final layer is usually only 
@@ -56,6 +93,12 @@
 
   D) Write paper 
 
+
+
+
+
+Extra if we finish the above with reasonable time remaining
+---------------------------------------------------------------
  Consistency Regularization / Data Augmentation / Perturbation
 
    In "EndNote", referenced in B-3, they show that a Random Forest with a set of features that were various network statistics 
