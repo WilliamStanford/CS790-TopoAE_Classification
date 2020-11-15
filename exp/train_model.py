@@ -18,7 +18,6 @@ from src.visualization import plot_losses, visualize_latents
 from .callbacks import LogDatasetLoss, LogTrainingLoss
 from .ingredients import model as model_config
 from .ingredients import dataset as dataset_config
-from datetime import datetime
 
 EXP = Experiment(
     'training',
@@ -134,9 +133,7 @@ def train(n_epochs, batch_size, learning_rate, weight_decay, val_size,
     # Run training
     training_loop()
     
-    now = datetime.now()
-    date_string = now.strftime("%d/%m/%Y %H:%M:%S")
-    model_save = 'model_state_'+date_string+'.pth'
+    model_save = 'model_state_test.pth'
     
     torch.save(model.state_dict(), model_save)
 
@@ -145,6 +142,7 @@ def train(n_epochs, batch_size, learning_rate, weight_decay, val_size,
         print('Loading model checkpoint prior to evaluation...')
         state_dict = torch.load(os.path.join(rundir, 'model_state.pth'))
         model.load_state_dict(state_dict)
+        
     model.eval()
 
     logged_averages = callbacks[0].logged_averages

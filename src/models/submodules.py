@@ -23,10 +23,9 @@ class View(nn.Module):
     
 class DeepAE(AutoencoderModel):
     """1000-500-250-2-250-500-1000."""
-    def __init__(self, num_classes=10, param_share=True, input_dims=(1, 28, 28)):
+    def __init__(self, param_share=False, input_dims=(1, 28, 28)):
         super().__init__()
         self.input_dims = input_dims
-        self.num_classes = num_classes
         self.param_share = param_share
         
         n_input_dims = np.prod(input_dims)
@@ -64,8 +63,8 @@ class DeepAE(AutoencoderModel):
            
         if param_share == False:
             self.classifier = nn.Sequential(
-                nn.Linear(2, self.num_classes),
-                nn.Dropout(0.2),
+                nn.Linear(2, 10),
+                nn.Dropout(0.1),
                 nn.LogSoftmax()
                 )
             
@@ -75,7 +74,7 @@ class DeepAE(AutoencoderModel):
                 nn.Linear(250, 100),
                 nn.ReLU(True),
                 nn.BatchNorm1d(100),
-                nn.Linear(100, self.num_classes),
+                nn.Linear(100, 10),
                 nn.Dropout(0.2),
                 nn.LogSoftmax()
                 )
@@ -116,11 +115,10 @@ class DeepAE(AutoencoderModel):
     
 class LinearAE(AutoencoderModel):
     """input dim - 2 - input dim."""
-    def __init__(self, num_classes=10, param_share=True, input_dims=(1, 28, 28)):
+    def __init__(self,  param_share=False, input_dims=(1, 28, 28)):
         super().__init__()
         self.input_dims = input_dims
         n_input_dims = np.prod(input_dims)
-        self.num_classes = num_classes
         
         self.encoder = nn.Sequential(
             View((-1, n_input_dims)),
@@ -136,8 +134,8 @@ class LinearAE(AutoencoderModel):
         
         if param_share == False:
             self.classifier = nn.Sequential(
-                nn.Linear(2, self.num_classes),
-                nn.Dropout(0.2),
+                nn.Linear(2, 10),
+                nn.Dropout(0.1),
                 nn.LogSoftmax()
                 )
             
@@ -147,7 +145,7 @@ class LinearAE(AutoencoderModel):
                 nn.Linear(250, 100),
                 nn.ReLU(True),
                 nn.BatchNorm1d(100),
-                nn.Linear(100, self.num_classes),
+                nn.Linear(100, 10),
                 nn.Dropout(0.2),
                 nn.LogSoftmax()
                 )

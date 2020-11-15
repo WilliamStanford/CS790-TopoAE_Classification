@@ -22,7 +22,7 @@ class TrainingLoop():
         """
         self.model = model
         self.dataset = dataset
-        self.n_epochs = n_epochs
+        self.n_epochs = 1
         self.batch_size = batch_size
         self.learning_rate = learning_rate
         self.weight_decay = weight_decay

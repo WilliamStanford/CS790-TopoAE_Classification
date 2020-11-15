@@ -1,0 +1,44 @@
+INFO - training - Running command 'train'
+INFO - training - Started run with ID "1"
+Using python to compute signatures
+Epoch 0: validation.loss: 1.008 validation.loss.autoencoder: 0.922 validation.loss.topo_error: 0.173 validation.metrics.matched_pairs_0D: 5.096 validation.metrics.distance1-2: 6.420 validation.metrics.distance2-1: 15.372 validation.reconstruction_error: 0.922
+Epoch 0: testing.loss: 1.003 testing.loss.autoencoder: 0.924 testing.loss.topo_error: 0.158 testing.metrics.matched_pairs_0D: 6.401 testing.metrics.distance1-2: 5.434 testing.metrics.distance2-1: 14.472 testing.reconstruction_error: 0.924
+Epoch 1: training.loss: 0.529 +/- 0.199 training.loss.autoencoder: 0.421 +/- 0.168 training.loss.topo_error: 0.215 +/- 0.091 training.metrics.matched_pairs_0D: 7.994 +/- 3.535 training.metrics.distance1-2: 18.083 +/- 11.560 training.metrics.distance2-1: 9.026 +/- 1.028 training.reconstruction_error: 0.421 +/- 0.168
+Epoch 1: validation.loss: 0.475 validation.loss.autoencoder: 0.392 validation.loss.topo_error: 0.166 validation.metrics.matched_pairs_0D: 10.836 validation.metrics.distance1-2: 11.947 validation.metrics.distance2-1: 8.943 validation.reconstruction_error: 0.392
+Saving model to BASEDIR/1/model_state.pth
+Epoch 1: testing.loss: 0.456 testing.loss.autoencoder: 0.385 testing.loss.topo_error: 0.143 testing.metrics.matched_pairs_0D: 11.894 testing.metrics.distance1-2: 9.759 testing.metrics.distance2-1: 8.224 testing.reconstruction_error: 0.385
+
+Loading model checkpoint prior to evaluation...
+INFO - train - Running evaluation on validation dataset
+INFO - training - Result: {'training.loss': 0.5286243316881797, 'training.loss.autoencoder': 0.42098172503609615, 'training.loss.topo_error': 0.21515732858048267, 'training.metrics.matched_pairs_0D': 7.993697478991597, 'training.metrics.distance1-2': 18.0834299957051, 'training.metrics.distance2-1': 9.026393342418832, 'training.reconstruction_error': 0.42098172503609615, 'validation_stress': 21.51057729410966, 'validation_rmse': 19.796034853486336, 'validation_density_global': 0.36622899785434937, 'validation_density_kl_global': 0.10141070125444313, 'validation_density_kl_global_10': 1.042456311264584e-05, 'validation_density_kl_global_1': 0.001034085087761306, 'validation_density_kl_global_01': 0.10141070125444313, 'validation_density_kl_global_001': 0.34013243032093554, 'validation_density_kl_global_0001': 0.6479657948105838, 'validation_trustworthiness': array([0.66294145, 0.66309858, 0.66310686, 0.6636553 , 0.66394914,
+       0.66438536, 0.66444529, 0.6645826 , 0.66476743, 0.66496262,
+       0.66503827, 0.66518581, 0.66533057, 0.66556288, 0.66566313,
+       0.66585231, 0.66607335, 0.66622113, 0.66628115, 0.66641998]), 'validation_continuity': array([0.82593655, 0.81193246, 0.80328292, 0.79682963, 0.79227539,
+       0.78792988, 0.78440118, 0.78131929, 0.77875661, 0.77637528,
+       0.7742318 , 0.77235709, 0.77062128, 0.76883989, 0.76741551,
+       0.76589258, 0.7645462 , 0.76325209, 0.76203461, 0.76085639]), 'validation_neighbourhood_loss': array([0.98188889, 0.97141111, 0.96282222, 0.95546111, 0.94877556,
+       0.94262963, 0.93682063, 0.93157361, 0.92702099, 0.92245556,
+       0.9180202 , 0.91386481, 0.90981026, 0.90581905, 0.90205333,
+       0.89853056, 0.89501503, 0.89177716, 0.88864854, 0.88556556]), 'validation_rank_correlation': array([0.08756469, 0.0958733 , 0.10042071, 0.10536229, 0.10471808,
+       0.10884212, 0.11101237, 0.11333624, 0.11484576, 0.116357  ,
+       0.11765715, 0.11863398, 0.11943581, 0.12144552, 0.12202154,
+       0.12386195, 0.12500108, 0.12662926, 0.12792501, 0.12933083]), 'validation_mrre': array([[0.33763418, 0.16092568],
+       [0.33767335, 0.16860757],
+       [0.33777701, 0.17328916],
+       [0.33772689, 0.17672648],
+       [0.33774526, 0.17930614],
+       [0.33772982, 0.18156654],
+       [0.33779482, 0.18346393],
+       [0.33784545, 0.1851255 ],
+       [0.33788706, 0.18657057],
+       [0.33792772, 0.18788878],
+       [0.33799267, 0.18908722],
+       [0.33804392, 0.19017213],
+       [0.33809615, 0.19117802],
+       [0.33813291, 0.19214591],
+       [0.33819212, 0.19301019],
+       [0.33823595, 0.19385662],
+       [0.33827388, 0.19464186],
+       [0.33832416, 0.19538969],
+       [0.33838936, 0.19609978],
+       [0.33844131, 0.19678048]]), 'validation_mean_trustworthiness': 0.6648761605718171, 'validation_mean_continuity': 0.7804543324070947, 'validation_mean_neighbourhood_loss': 0.9244981902127088, 'validation_mean_rank_correlation': 0.11451373387916697, 'validation_mean_mrre': 0.2618924059431769}
