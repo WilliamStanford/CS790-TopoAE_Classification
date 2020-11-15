@@ -23,7 +23,7 @@
     "__doc__": "Model configuration.",
     "name": "VanillaAutoencoderModel",
     "parameters": {
-      "autoencoder_model": "DeepAE"
+      "autoencoder_model": "DeepAE",
     }
   },
   "n_epochs": 100,
@@ -31,4 +31,5 @@
   "seed": 144978135,
   "val_size": 0.15,
   "weight_decay": 1e-05
-}
+} 
+

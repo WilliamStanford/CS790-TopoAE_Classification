@@ -87,7 +87,7 @@ class TrainingLoop():
 
                 # Set model into training mode and compute loss
                 model.train()
-                loss, lp_loss, loss_components = self.model(img)
+                loss, loss_components = self.model(img)
 
                 # Optimize
                 optimizer.zero_grad()

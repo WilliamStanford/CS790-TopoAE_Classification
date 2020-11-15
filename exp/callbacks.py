@@ -121,7 +121,7 @@ class LogDatasetLoss(Callback):
         model.eval()
 
         for batch in self.data_loader:
-            data, _ = batch
+            data, label = batch
             if self.device == 'cuda':
                 data = data.cuda(non_blocking=True)
             loss, loss_components = model(data)
