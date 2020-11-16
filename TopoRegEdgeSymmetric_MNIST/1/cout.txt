@@ -1,0 +1,480 @@
+INFO - training - Running command 'train'
+INFO - training - Started run with ID "1"
+Using python to compute signatures
+Epoch 0: validation.loss: 1.008 validation.loss.autoencoder: 0.922 validation.loss.topo_error: 0.173 validation.metrics.matched_pairs_0D: 5.096 validation.metrics.distance1-2: 6.420 validation.metrics.distance2-1: 15.372 validation.reconstruction_error: 0.922
+Epoch 0: testing.loss: 1.003 testing.loss.autoencoder: 0.924 testing.loss.topo_error: 0.158 testing.metrics.matched_pairs_0D: 6.401 testing.metrics.distance1-2: 5.434 testing.metrics.distance2-1: 14.472 testing.reconstruction_error: 0.924
+Epoch 1: training.loss: 0.516 +/- 0.192 training.loss.autoencoder: 0.417 +/- 0.162 training.loss.topo_error: 0.197 +/- 0.074 training.metrics.matched_pairs_0D: 7.891 +/- 3.465 training.metrics.distance1-2: 15.668 +/- 9.407 training.metrics.distance2-1: 9.167 +/- 0.903 training.reconstruction_error: 0.417 +/- 0.162
+Epoch 1: validation.loss: 0.339 validation.loss.autoencoder: 0.282 validation.loss.topo_error: 0.115 validation.metrics.matched_pairs_0D: 10.486 validation.metrics.distance1-2: 5.473 validation.metrics.distance2-1: 9.010 validation.reconstruction_error: 0.282
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 1: testing.loss: 0.328 testing.loss.autoencoder: 0.278 testing.loss.topo_error: 0.101 testing.metrics.matched_pairs_0D: 12.083 testing.metrics.distance1-2: 4.127 testing.metrics.distance2-1: 8.631 testing.reconstruction_error: 0.278
+
+Epoch 2: training.loss: 0.404 +/- 0.102 training.loss.autoencoder: 0.329 +/- 0.090 training.loss.topo_error: 0.150 +/- 0.057 training.metrics.matched_pairs_0D: 11.863 +/- 3.471 training.metrics.distance1-2: 10.290 +/- 7.450 training.metrics.distance2-1: 8.628 +/- 0.832 training.reconstruction_error: 0.329 +/- 0.090
+Epoch 2: validation.loss: 0.385 validation.loss.autoencoder: 0.312 validation.loss.topo_error: 0.146 validation.metrics.matched_pairs_0D: 12.222 validation.metrics.distance1-2: 10.319 validation.metrics.distance2-1: 8.084 validation.reconstruction_error: 0.312
+Epoch 2: testing.loss: 0.369 testing.loss.autoencoder: 0.307 testing.loss.topo_error: 0.124 testing.metrics.matched_pairs_0D: 14.389 testing.metrics.distance1-2: 8.184 testing.metrics.distance2-1: 7.423 testing.reconstruction_error: 0.307
+
+Epoch 3: training.loss: 0.336 +/- 0.063 training.loss.autoencoder: 0.271 +/- 0.039 training.loss.topo_error: 0.130 +/- 0.065 training.metrics.matched_pairs_0D: 15.124 +/- 4.213 training.metrics.distance1-2: 7.995 +/- 8.033 training.metrics.distance2-1: 8.397 +/- 0.794 training.reconstruction_error: 0.271 +/- 0.039
+Epoch 3: validation.loss: 0.279 validation.loss.autoencoder: 0.231 validation.loss.topo_error: 0.096 validation.metrics.matched_pairs_0D: 19.992 validation.metrics.distance1-2: 4.672 validation.metrics.distance2-1: 7.435 validation.reconstruction_error: 0.231
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 3: testing.loss: 0.267 testing.loss.autoencoder: 0.226 testing.loss.topo_error: 0.082 testing.metrics.matched_pairs_0D: 21.118 testing.metrics.distance1-2: 3.600 testing.metrics.distance2-1: 6.735 testing.reconstruction_error: 0.226
+
+Epoch 4: training.loss: 0.279 +/- 0.020 training.loss.autoencoder: 0.233 +/- 0.016 training.loss.topo_error: 0.092 +/- 0.016 training.metrics.matched_pairs_0D: 21.618 +/- 4.070 training.metrics.distance1-2: 4.132 +/- 1.783 training.metrics.distance2-1: 7.436 +/- 0.565 training.reconstruction_error: 0.233 +/- 0.016
+Epoch 4: validation.loss: 0.243 validation.loss.autoencoder: 0.204 validation.loss.topo_error: 0.079 validation.metrics.matched_pairs_0D: 23.296 validation.metrics.distance1-2: 2.584 validation.metrics.distance2-1: 7.425 validation.reconstruction_error: 0.204
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 4: testing.loss: 0.240 testing.loss.autoencoder: 0.205 testing.loss.topo_error: 0.070 testing.metrics.matched_pairs_0D: 23.638 testing.metrics.distance1-2: 2.105 testing.metrics.distance2-1: 6.741 testing.reconstruction_error: 0.205
+
+Epoch 5: training.loss: 0.231 +/- 0.012 training.loss.autoencoder: 0.193 +/- 0.010 training.loss.topo_error: 0.075 +/- 0.006 training.metrics.matched_pairs_0D: 25.836 +/- 4.547 training.metrics.distance1-2: 2.614 +/- 0.561 training.metrics.distance2-1: 6.872 +/- 0.572 training.reconstruction_error: 0.193 +/- 0.010
+Epoch 5: validation.loss: 0.230 validation.loss.autoencoder: 0.194 validation.loss.topo_error: 0.073 validation.metrics.matched_pairs_0D: 27.734 validation.metrics.distance1-2: 2.610 validation.metrics.distance2-1: 6.585 validation.reconstruction_error: 0.194
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 5: testing.loss: 0.223 testing.loss.autoencoder: 0.190 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 28.413 testing.metrics.distance1-2: 2.120 testing.metrics.distance2-1: 6.009 testing.reconstruction_error: 0.190
+
+Epoch 6: training.loss: 0.220 +/- 0.010 training.loss.autoencoder: 0.184 +/- 0.008 training.loss.topo_error: 0.073 +/- 0.006 training.metrics.matched_pairs_0D: 28.834 +/- 4.437 training.metrics.distance1-2: 2.712 +/- 0.603 training.metrics.distance2-1: 6.433 +/- 0.440 training.reconstruction_error: 0.184 +/- 0.008
+Epoch 6: validation.loss: 0.223 validation.loss.autoencoder: 0.187 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 30.044 validation.metrics.distance1-2: 2.729 validation.metrics.distance2-1: 6.269 validation.reconstruction_error: 0.187
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 6: testing.loss: 0.214 testing.loss.autoencoder: 0.183 testing.loss.topo_error: 0.063 testing.metrics.matched_pairs_0D: 29.597 testing.metrics.distance1-2: 2.241 testing.metrics.distance2-1: 5.744 testing.reconstruction_error: 0.183
+
+Epoch 7: training.loss: 0.215 +/- 0.010 training.loss.autoencoder: 0.179 +/- 0.008 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 30.613 +/- 4.387 training.metrics.distance1-2: 2.863 +/- 0.611 training.metrics.distance2-1: 6.166 +/- 0.410 training.reconstruction_error: 0.179 +/- 0.008
+Epoch 7: validation.loss: 0.212 validation.loss.autoencoder: 0.176 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 32.480 validation.metrics.distance1-2: 2.896 validation.metrics.distance2-1: 6.134 validation.reconstruction_error: 0.176
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 7: testing.loss: 0.206 testing.loss.autoencoder: 0.175 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 31.311 testing.metrics.distance1-2: 2.384 testing.metrics.distance2-1: 5.627 testing.reconstruction_error: 0.175
+
+Epoch 8: training.loss: 0.212 +/- 0.009 training.loss.autoencoder: 0.176 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.007 training.metrics.matched_pairs_0D: 32.277 +/- 4.334 training.metrics.distance1-2: 2.989 +/- 0.768 training.metrics.distance2-1: 6.026 +/- 0.374 training.reconstruction_error: 0.176 +/- 0.007
+Epoch 8: validation.loss: 0.208 validation.loss.autoencoder: 0.172 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 33.026 validation.metrics.distance1-2: 2.910 validation.metrics.distance2-1: 6.004 validation.reconstruction_error: 0.172
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 8: testing.loss: 0.203 testing.loss.autoencoder: 0.172 testing.loss.topo_error: 0.063 testing.metrics.matched_pairs_0D: 32.243 testing.metrics.distance1-2: 2.418 testing.metrics.distance2-1: 5.534 testing.reconstruction_error: 0.172
+
+Epoch 9: training.loss: 0.209 +/- 0.009 training.loss.autoencoder: 0.173 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.007 training.metrics.matched_pairs_0D: 32.989 +/- 4.645 training.metrics.distance1-2: 3.054 +/- 0.720 training.metrics.distance2-1: 5.948 +/- 0.383 training.reconstruction_error: 0.173 +/- 0.007
+Epoch 9: validation.loss: 0.206 validation.loss.autoencoder: 0.170 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 33.418 validation.metrics.distance1-2: 2.957 validation.metrics.distance2-1: 6.018 validation.reconstruction_error: 0.170
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 9: testing.loss: 0.201 testing.loss.autoencoder: 0.169 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 33.075 testing.metrics.distance1-2: 2.477 testing.metrics.distance2-1: 5.527 testing.reconstruction_error: 0.169
+
+Epoch 10: training.loss: 0.207 +/- 0.009 training.loss.autoencoder: 0.171 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.007 training.metrics.matched_pairs_0D: 34.366 +/- 4.489 training.metrics.distance1-2: 3.098 +/- 0.733 training.metrics.distance2-1: 5.920 +/- 0.374 training.reconstruction_error: 0.171 +/- 0.007
+Epoch 10: validation.loss: 0.202 validation.loss.autoencoder: 0.166 validation.loss.topo_error: 0.073 validation.metrics.matched_pairs_0D: 33.866 validation.metrics.distance1-2: 3.140 validation.metrics.distance2-1: 6.062 validation.reconstruction_error: 0.166
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 10: testing.loss: 0.199 testing.loss.autoencoder: 0.167 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 32.987 testing.metrics.distance1-2: 2.608 testing.metrics.distance2-1: 5.572 testing.reconstruction_error: 0.167
+
+Epoch 11: training.loss: 0.205 +/- 0.010 training.loss.autoencoder: 0.170 +/- 0.008 training.loss.topo_error: 0.071 +/- 0.007 training.metrics.matched_pairs_0D: 35.000 +/- 4.672 training.metrics.distance1-2: 3.133 +/- 0.709 training.metrics.distance2-1: 5.870 +/- 0.401 training.reconstruction_error: 0.170 +/- 0.008
+Epoch 11: validation.loss: 0.201 validation.loss.autoencoder: 0.165 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 35.882 validation.metrics.distance1-2: 2.998 validation.metrics.distance2-1: 5.940 validation.reconstruction_error: 0.165
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 11: testing.loss: 0.200 testing.loss.autoencoder: 0.168 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 34.322 testing.metrics.distance1-2: 2.536 testing.metrics.distance2-1: 5.487 testing.reconstruction_error: 0.168
+
+Epoch 12: training.loss: 0.204 +/- 0.009 training.loss.autoencoder: 0.168 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 35.479 +/- 4.814 training.metrics.distance1-2: 3.122 +/- 0.659 training.metrics.distance2-1: 5.820 +/- 0.366 training.reconstruction_error: 0.168 +/- 0.007
+Epoch 12: validation.loss: 0.209 validation.loss.autoencoder: 0.173 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 35.294 validation.metrics.distance1-2: 3.055 validation.metrics.distance2-1: 5.871 validation.reconstruction_error: 0.173
+Epoch 12: testing.loss: 0.202 testing.loss.autoencoder: 0.171 testing.loss.topo_error: 0.063 testing.metrics.matched_pairs_0D: 34.940 testing.metrics.distance1-2: 2.565 testing.metrics.distance2-1: 5.413 testing.reconstruction_error: 0.171
+
+Epoch 13: training.loss: 0.203 +/- 0.009 training.loss.autoencoder: 0.167 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.007 training.metrics.matched_pairs_0D: 36.372 +/- 4.782 training.metrics.distance1-2: 3.211 +/- 0.708 training.metrics.distance2-1: 5.816 +/- 0.386 training.reconstruction_error: 0.167 +/- 0.007
+Epoch 13: validation.loss: 0.203 validation.loss.autoencoder: 0.168 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 35.952 validation.metrics.distance1-2: 3.113 validation.metrics.distance2-1: 5.880 validation.reconstruction_error: 0.168
+Epoch 13: testing.loss: 0.198 testing.loss.autoencoder: 0.166 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 35.746 testing.metrics.distance1-2: 2.605 testing.metrics.distance2-1: 5.407 testing.reconstruction_error: 0.166
+
+Epoch 14: training.loss: 0.202 +/- 0.010 training.loss.autoencoder: 0.166 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 36.393 +/- 4.394 training.metrics.distance1-2: 3.193 +/- 0.668 training.metrics.distance2-1: 5.820 +/- 0.386 training.reconstruction_error: 0.166 +/- 0.007
+Epoch 14: validation.loss: 0.210 validation.loss.autoencoder: 0.174 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 36.456 validation.metrics.distance1-2: 3.125 validation.metrics.distance2-1: 5.795 validation.reconstruction_error: 0.174
+Epoch 14: testing.loss: 0.201 testing.loss.autoencoder: 0.169 testing.loss.topo_error: 0.063 testing.metrics.matched_pairs_0D: 36.137 testing.metrics.distance1-2: 2.640 testing.metrics.distance2-1: 5.345 testing.reconstruction_error: 0.169
+
+Epoch 15: training.loss: 0.200 +/- 0.009 training.loss.autoencoder: 0.165 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.007 training.metrics.matched_pairs_0D: 37.141 +/- 4.515 training.metrics.distance1-2: 3.200 +/- 0.678 training.metrics.distance2-1: 5.807 +/- 0.387 training.reconstruction_error: 0.165 +/- 0.007
+Epoch 15: validation.loss: 0.193 validation.loss.autoencoder: 0.158 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 37.464 validation.metrics.distance1-2: 3.105 validation.metrics.distance2-1: 5.829 validation.reconstruction_error: 0.158
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 15: testing.loss: 0.190 testing.loss.autoencoder: 0.158 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 36.616 testing.metrics.distance1-2: 2.630 testing.metrics.distance2-1: 5.413 testing.reconstruction_error: 0.158
+
+Epoch 16: training.loss: 0.200 +/- 0.009 training.loss.autoencoder: 0.164 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 37.015 +/- 4.735 training.metrics.distance1-2: 3.227 +/- 0.676 training.metrics.distance2-1: 5.780 +/- 0.364 training.reconstruction_error: 0.164 +/- 0.007
+Epoch 16: validation.loss: 0.194 validation.loss.autoencoder: 0.158 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 37.198 validation.metrics.distance1-2: 3.188 validation.metrics.distance2-1: 5.816 validation.reconstruction_error: 0.158
+Epoch 16: testing.loss: 0.191 testing.loss.autoencoder: 0.159 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 37.069 testing.metrics.distance1-2: 2.689 testing.metrics.distance2-1: 5.383 testing.reconstruction_error: 0.159
+
+Epoch 17: training.loss: 0.199 +/- 0.009 training.loss.autoencoder: 0.163 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 37.162 +/- 4.520 training.metrics.distance1-2: 3.209 +/- 0.647 training.metrics.distance2-1: 5.788 +/- 0.396 training.reconstruction_error: 0.163 +/- 0.007
+Epoch 17: validation.loss: 0.203 validation.loss.autoencoder: 0.167 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 37.814 validation.metrics.distance1-2: 3.312 validation.metrics.distance2-1: 5.593 validation.reconstruction_error: 0.167
+Epoch 17: testing.loss: 0.197 testing.loss.autoencoder: 0.165 testing.loss.topo_error: 0.063 testing.metrics.matched_pairs_0D: 37.183 testing.metrics.distance1-2: 2.766 testing.metrics.distance2-1: 5.222 testing.reconstruction_error: 0.165
+
+Epoch 18: training.loss: 0.198 +/- 0.009 training.loss.autoencoder: 0.162 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 37.525 +/- 4.859 training.metrics.distance1-2: 3.235 +/- 0.688 training.metrics.distance2-1: 5.780 +/- 0.365 training.reconstruction_error: 0.162 +/- 0.007
+Epoch 18: validation.loss: 0.193 validation.loss.autoencoder: 0.158 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 38.052 validation.metrics.distance1-2: 3.270 validation.metrics.distance2-1: 5.678 validation.reconstruction_error: 0.158
+Epoch 18: testing.loss: 0.191 testing.loss.autoencoder: 0.159 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 37.636 testing.metrics.distance1-2: 2.725 testing.metrics.distance2-1: 5.309 testing.reconstruction_error: 0.159
+
+Epoch 19: training.loss: 0.197 +/- 0.010 training.loss.autoencoder: 0.161 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.007 training.metrics.matched_pairs_0D: 37.916 +/- 4.760 training.metrics.distance1-2: 3.233 +/- 0.684 training.metrics.distance2-1: 5.759 +/- 0.394 training.reconstruction_error: 0.161 +/- 0.007
+Epoch 19: validation.loss: 0.195 validation.loss.autoencoder: 0.160 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 37.562 validation.metrics.distance1-2: 3.142 validation.metrics.distance2-1: 5.754 validation.reconstruction_error: 0.160
+Epoch 19: testing.loss: 0.193 testing.loss.autoencoder: 0.161 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 37.107 testing.metrics.distance1-2: 2.674 testing.metrics.distance2-1: 5.393 testing.reconstruction_error: 0.161
+
+Epoch 20: training.loss: 0.196 +/- 0.009 training.loss.autoencoder: 0.160 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 38.403 +/- 4.780 training.metrics.distance1-2: 3.263 +/- 0.642 training.metrics.distance2-1: 5.753 +/- 0.368 training.reconstruction_error: 0.160 +/- 0.007
+Epoch 20: validation.loss: 0.192 validation.loss.autoencoder: 0.156 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 38.332 validation.metrics.distance1-2: 3.180 validation.metrics.distance2-1: 5.917 validation.reconstruction_error: 0.156
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 20: testing.loss: 0.189 testing.loss.autoencoder: 0.157 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 38.203 testing.metrics.distance1-2: 2.702 testing.metrics.distance2-1: 5.480 testing.reconstruction_error: 0.157
+
+Epoch 21: training.loss: 0.195 +/- 0.009 training.loss.autoencoder: 0.160 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 38.555 +/- 4.953 training.metrics.distance1-2: 3.276 +/- 0.648 training.metrics.distance2-1: 5.740 +/- 0.366 training.reconstruction_error: 0.160 +/- 0.007
+Epoch 21: validation.loss: 0.212 validation.loss.autoencoder: 0.176 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 37.576 validation.metrics.distance1-2: 3.278 validation.metrics.distance2-1: 5.725 validation.reconstruction_error: 0.176
+Epoch 21: testing.loss: 0.205 testing.loss.autoencoder: 0.173 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.417 testing.metrics.distance1-2: 2.765 testing.metrics.distance2-1: 5.280 testing.reconstruction_error: 0.173
+
+Epoch 22: training.loss: 0.195 +/- 0.009 training.loss.autoencoder: 0.159 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.007 training.metrics.matched_pairs_0D: 38.401 +/- 4.759 training.metrics.distance1-2: 3.293 +/- 0.692 training.metrics.distance2-1: 5.784 +/- 0.379 training.reconstruction_error: 0.159 +/- 0.007
+Epoch 22: validation.loss: 0.209 validation.loss.autoencoder: 0.174 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 38.262 validation.metrics.distance1-2: 3.133 validation.metrics.distance2-1: 5.827 validation.reconstruction_error: 0.174
+Epoch 22: testing.loss: 0.201 testing.loss.autoencoder: 0.169 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 37.976 testing.metrics.distance1-2: 2.682 testing.metrics.distance2-1: 5.405 testing.reconstruction_error: 0.169
+
+Epoch 23: training.loss: 0.194 +/- 0.009 training.loss.autoencoder: 0.158 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 38.700 +/- 4.494 training.metrics.distance1-2: 3.289 +/- 0.670 training.metrics.distance2-1: 5.755 +/- 0.362 training.reconstruction_error: 0.158 +/- 0.007
+Epoch 23: validation.loss: 0.191 validation.loss.autoencoder: 0.155 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 38.654 validation.metrics.distance1-2: 3.335 validation.metrics.distance2-1: 5.670 validation.reconstruction_error: 0.155
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 23: testing.loss: 0.187 testing.loss.autoencoder: 0.155 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.858 testing.metrics.distance1-2: 2.808 testing.metrics.distance2-1: 5.234 testing.reconstruction_error: 0.155
+
+Epoch 24: training.loss: 0.193 +/- 0.009 training.loss.autoencoder: 0.157 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.305 +/- 4.773 training.metrics.distance1-2: 3.286 +/- 0.619 training.metrics.distance2-1: 5.744 +/- 0.347 training.reconstruction_error: 0.157 +/- 0.007
+Epoch 24: validation.loss: 0.188 validation.loss.autoencoder: 0.153 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 38.934 validation.metrics.distance1-2: 3.151 validation.metrics.distance2-1: 5.805 validation.reconstruction_error: 0.153
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 24: testing.loss: 0.186 testing.loss.autoencoder: 0.154 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.606 testing.metrics.distance1-2: 2.732 testing.metrics.distance2-1: 5.379 testing.reconstruction_error: 0.154
+
+Epoch 25: training.loss: 0.193 +/- 0.009 training.loss.autoencoder: 0.157 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.237 +/- 5.090 training.metrics.distance1-2: 3.293 +/- 0.640 training.metrics.distance2-1: 5.780 +/- 0.371 training.reconstruction_error: 0.157 +/- 0.007
+Epoch 25: validation.loss: 0.187 validation.loss.autoencoder: 0.151 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 38.430 validation.metrics.distance1-2: 3.120 validation.metrics.distance2-1: 5.827 validation.reconstruction_error: 0.151
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 25: testing.loss: 0.185 testing.loss.autoencoder: 0.153 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.191 testing.metrics.distance1-2: 2.698 testing.metrics.distance2-1: 5.409 testing.reconstruction_error: 0.153
+
+Epoch 26: training.loss: 0.192 +/- 0.010 training.loss.autoencoder: 0.156 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.007 training.metrics.matched_pairs_0D: 39.464 +/- 4.670 training.metrics.distance1-2: 3.291 +/- 0.674 training.metrics.distance2-1: 5.776 +/- 0.370 training.reconstruction_error: 0.156 +/- 0.007
+Epoch 26: validation.loss: 0.197 validation.loss.autoencoder: 0.162 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.130 validation.metrics.distance1-2: 3.196 validation.metrics.distance2-1: 5.744 validation.reconstruction_error: 0.162
+Epoch 26: testing.loss: 0.191 testing.loss.autoencoder: 0.159 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.417 testing.metrics.distance1-2: 2.783 testing.metrics.distance2-1: 5.331 testing.reconstruction_error: 0.159
+
+Epoch 27: training.loss: 0.191 +/- 0.009 training.loss.autoencoder: 0.156 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.462 +/- 4.875 training.metrics.distance1-2: 3.310 +/- 0.643 training.metrics.distance2-1: 5.748 +/- 0.372 training.reconstruction_error: 0.156 +/- 0.007
+Epoch 27: validation.loss: 0.195 validation.loss.autoencoder: 0.159 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.130 validation.metrics.distance1-2: 3.226 validation.metrics.distance2-1: 5.710 validation.reconstruction_error: 0.159
+Epoch 27: testing.loss: 0.191 testing.loss.autoencoder: 0.159 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 38.695 testing.metrics.distance1-2: 2.830 testing.metrics.distance2-1: 5.306 testing.reconstruction_error: 0.159
+
+Epoch 28: training.loss: 0.190 +/- 0.008 training.loss.autoencoder: 0.154 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.895 +/- 4.468 training.metrics.distance1-2: 3.291 +/- 0.627 training.metrics.distance2-1: 5.740 +/- 0.338 training.reconstruction_error: 0.154 +/- 0.007
+Epoch 28: validation.loss: 0.185 validation.loss.autoencoder: 0.150 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.480 validation.metrics.distance1-2: 3.138 validation.metrics.distance2-1: 5.852 validation.reconstruction_error: 0.150
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 28: testing.loss: 0.184 testing.loss.autoencoder: 0.151 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.148 testing.metrics.distance1-2: 2.720 testing.metrics.distance2-1: 5.425 testing.reconstruction_error: 0.151
+
+Epoch 29: training.loss: 0.190 +/- 0.008 training.loss.autoencoder: 0.154 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.725 +/- 4.576 training.metrics.distance1-2: 3.266 +/- 0.628 training.metrics.distance2-1: 5.754 +/- 0.350 training.reconstruction_error: 0.154 +/- 0.006
+Epoch 29: validation.loss: 0.186 validation.loss.autoencoder: 0.150 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 39.592 validation.metrics.distance1-2: 3.225 validation.metrics.distance2-1: 5.839 validation.reconstruction_error: 0.150
+Epoch 29: testing.loss: 0.183 testing.loss.autoencoder: 0.150 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 38.959 testing.metrics.distance1-2: 2.780 testing.metrics.distance2-1: 5.396 testing.reconstruction_error: 0.150
+
+Epoch 30: training.loss: 0.189 +/- 0.009 training.loss.autoencoder: 0.153 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.952 +/- 4.813 training.metrics.distance1-2: 3.307 +/- 0.649 training.metrics.distance2-1: 5.738 +/- 0.358 training.reconstruction_error: 0.153 +/- 0.007
+Epoch 30: validation.loss: 0.185 validation.loss.autoencoder: 0.150 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.788 validation.metrics.distance1-2: 3.245 validation.metrics.distance2-1: 5.701 validation.reconstruction_error: 0.150
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 30: testing.loss: 0.183 testing.loss.autoencoder: 0.151 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.199 testing.metrics.distance1-2: 2.771 testing.metrics.distance2-1: 5.312 testing.reconstruction_error: 0.151
+
+Epoch 31: training.loss: 0.189 +/- 0.009 training.loss.autoencoder: 0.153 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.034 +/- 4.554 training.metrics.distance1-2: 3.311 +/- 0.664 training.metrics.distance2-1: 5.751 +/- 0.355 training.reconstruction_error: 0.153 +/- 0.007
+Epoch 31: validation.loss: 0.185 validation.loss.autoencoder: 0.150 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.320 validation.metrics.distance1-2: 3.151 validation.metrics.distance2-1: 5.831 validation.reconstruction_error: 0.150
+Epoch 31: testing.loss: 0.183 testing.loss.autoencoder: 0.151 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.551 testing.metrics.distance1-2: 2.739 testing.metrics.distance2-1: 5.374 testing.reconstruction_error: 0.151
+
+Epoch 32: training.loss: 0.188 +/- 0.009 training.loss.autoencoder: 0.152 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.019 +/- 4.799 training.metrics.distance1-2: 3.287 +/- 0.632 training.metrics.distance2-1: 5.760 +/- 0.354 training.reconstruction_error: 0.152 +/- 0.007
+Epoch 32: validation.loss: 0.184 validation.loss.autoencoder: 0.148 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.480 validation.metrics.distance1-2: 3.263 validation.metrics.distance2-1: 5.668 validation.reconstruction_error: 0.148
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 32: testing.loss: 0.183 testing.loss.autoencoder: 0.150 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.732 testing.metrics.distance1-2: 2.808 testing.metrics.distance2-1: 5.277 testing.reconstruction_error: 0.150
+
+Epoch 33: training.loss: 0.188 +/- 0.009 training.loss.autoencoder: 0.152 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 39.924 +/- 4.636 training.metrics.distance1-2: 3.312 +/- 0.616 training.metrics.distance2-1: 5.710 +/- 0.355 training.reconstruction_error: 0.152 +/- 0.007
+Epoch 33: validation.loss: 0.185 validation.loss.autoencoder: 0.149 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 39.774 validation.metrics.distance1-2: 3.320 validation.metrics.distance2-1: 5.765 validation.reconstruction_error: 0.149
+Epoch 33: testing.loss: 0.182 testing.loss.autoencoder: 0.150 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.803 testing.metrics.distance1-2: 2.831 testing.metrics.distance2-1: 5.303 testing.reconstruction_error: 0.150
+
+Epoch 34: training.loss: 0.187 +/- 0.008 training.loss.autoencoder: 0.151 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.166 +/- 4.689 training.metrics.distance1-2: 3.288 +/- 0.593 training.metrics.distance2-1: 5.755 +/- 0.337 training.reconstruction_error: 0.151 +/- 0.007
+Epoch 34: validation.loss: 0.186 validation.loss.autoencoder: 0.150 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.858 validation.metrics.distance1-2: 3.251 validation.metrics.distance2-1: 5.732 validation.reconstruction_error: 0.150
+Epoch 34: testing.loss: 0.183 testing.loss.autoencoder: 0.151 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.551 testing.metrics.distance1-2: 2.812 testing.metrics.distance2-1: 5.308 testing.reconstruction_error: 0.151
+
+Epoch 35: training.loss: 0.187 +/- 0.009 training.loss.autoencoder: 0.151 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.200 +/- 4.633 training.metrics.distance1-2: 3.332 +/- 0.647 training.metrics.distance2-1: 5.718 +/- 0.380 training.reconstruction_error: 0.151 +/- 0.007
+Epoch 35: validation.loss: 0.189 validation.loss.autoencoder: 0.153 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.208 validation.metrics.distance1-2: 3.261 validation.metrics.distance2-1: 5.741 validation.reconstruction_error: 0.153
+Epoch 35: testing.loss: 0.184 testing.loss.autoencoder: 0.152 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.602 testing.metrics.distance1-2: 2.819 testing.metrics.distance2-1: 5.316 testing.reconstruction_error: 0.152
+
+Epoch 36: training.loss: 0.186 +/- 0.009 training.loss.autoencoder: 0.151 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.557 +/- 5.054 training.metrics.distance1-2: 3.292 +/- 0.638 training.metrics.distance2-1: 5.684 +/- 0.332 training.reconstruction_error: 0.151 +/- 0.007
+Epoch 36: validation.loss: 0.184 validation.loss.autoencoder: 0.148 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.404 validation.metrics.distance1-2: 3.269 validation.metrics.distance2-1: 5.650 validation.reconstruction_error: 0.148
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 36: testing.loss: 0.182 testing.loss.autoencoder: 0.150 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 38.959 testing.metrics.distance1-2: 2.833 testing.metrics.distance2-1: 5.316 testing.reconstruction_error: 0.150
+
+Epoch 37: training.loss: 0.186 +/- 0.009 training.loss.autoencoder: 0.150 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.250 +/- 4.482 training.metrics.distance1-2: 3.289 +/- 0.652 training.metrics.distance2-1: 5.745 +/- 0.370 training.reconstruction_error: 0.150 +/- 0.007
+Epoch 37: validation.loss: 0.183 validation.loss.autoencoder: 0.148 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.816 validation.metrics.distance1-2: 3.255 validation.metrics.distance2-1: 5.654 validation.reconstruction_error: 0.148
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 37: testing.loss: 0.182 testing.loss.autoencoder: 0.149 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.720 testing.metrics.distance1-2: 2.821 testing.metrics.distance2-1: 5.289 testing.reconstruction_error: 0.149
+
+Epoch 38: training.loss: 0.186 +/- 0.009 training.loss.autoencoder: 0.150 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.311 +/- 4.535 training.metrics.distance1-2: 3.287 +/- 0.602 training.metrics.distance2-1: 5.720 +/- 0.365 training.reconstruction_error: 0.150 +/- 0.007
+Epoch 38: validation.loss: 0.182 validation.loss.autoencoder: 0.147 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.858 validation.metrics.distance1-2: 3.204 validation.metrics.distance2-1: 5.735 validation.reconstruction_error: 0.147
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 38: testing.loss: 0.180 testing.loss.autoencoder: 0.148 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 38.858 testing.metrics.distance1-2: 2.759 testing.metrics.distance2-1: 5.340 testing.reconstruction_error: 0.148
+
+Epoch 39: training.loss: 0.186 +/- 0.009 training.loss.autoencoder: 0.150 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.374 +/- 4.886 training.metrics.distance1-2: 3.299 +/- 0.588 training.metrics.distance2-1: 5.718 +/- 0.355 training.reconstruction_error: 0.150 +/- 0.007
+Epoch 39: validation.loss: 0.181 validation.loss.autoencoder: 0.145 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.124 validation.metrics.distance1-2: 3.209 validation.metrics.distance2-1: 5.726 validation.reconstruction_error: 0.145
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 39: testing.loss: 0.180 testing.loss.autoencoder: 0.148 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.829 testing.metrics.distance1-2: 2.777 testing.metrics.distance2-1: 5.359 testing.reconstruction_error: 0.148
+
+Epoch 40: training.loss: 0.185 +/- 0.009 training.loss.autoencoder: 0.149 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.683 +/- 4.877 training.metrics.distance1-2: 3.307 +/- 0.605 training.metrics.distance2-1: 5.712 +/- 0.338 training.reconstruction_error: 0.149 +/- 0.006
+Epoch 40: validation.loss: 0.181 validation.loss.autoencoder: 0.146 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.530 validation.metrics.distance1-2: 3.262 validation.metrics.distance2-1: 5.718 validation.reconstruction_error: 0.146
+Epoch 40: testing.loss: 0.179 testing.loss.autoencoder: 0.147 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.396 testing.metrics.distance1-2: 2.839 testing.metrics.distance2-1: 5.318 testing.reconstruction_error: 0.147
+
+Epoch 41: training.loss: 0.185 +/- 0.009 training.loss.autoencoder: 0.149 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.857 +/- 4.484 training.metrics.distance1-2: 3.340 +/- 0.650 training.metrics.distance2-1: 5.721 +/- 0.362 training.reconstruction_error: 0.149 +/- 0.007
+Epoch 41: validation.loss: 0.180 validation.loss.autoencoder: 0.144 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.376 validation.metrics.distance1-2: 3.148 validation.metrics.distance2-1: 5.804 validation.reconstruction_error: 0.144
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 41: testing.loss: 0.178 testing.loss.autoencoder: 0.146 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.816 testing.metrics.distance1-2: 2.769 testing.metrics.distance2-1: 5.406 testing.reconstruction_error: 0.146
+
+Epoch 42: training.loss: 0.185 +/- 0.008 training.loss.autoencoder: 0.149 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.639 +/- 4.394 training.metrics.distance1-2: 3.326 +/- 0.606 training.metrics.distance2-1: 5.723 +/- 0.356 training.reconstruction_error: 0.149 +/- 0.007
+Epoch 42: validation.loss: 0.182 validation.loss.autoencoder: 0.147 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.726 validation.metrics.distance1-2: 3.308 validation.metrics.distance2-1: 5.656 validation.reconstruction_error: 0.147
+Epoch 42: testing.loss: 0.180 testing.loss.autoencoder: 0.148 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.564 testing.metrics.distance1-2: 2.833 testing.metrics.distance2-1: 5.250 testing.reconstruction_error: 0.148
+
+Epoch 43: training.loss: 0.184 +/- 0.009 training.loss.autoencoder: 0.148 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.662 +/- 4.708 training.metrics.distance1-2: 3.322 +/- 0.636 training.metrics.distance2-1: 5.706 +/- 0.340 training.reconstruction_error: 0.148 +/- 0.007
+Epoch 43: validation.loss: 0.181 validation.loss.autoencoder: 0.145 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.684 validation.metrics.distance1-2: 3.201 validation.metrics.distance2-1: 5.768 validation.reconstruction_error: 0.145
+Epoch 43: testing.loss: 0.180 testing.loss.autoencoder: 0.147 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.514 testing.metrics.distance1-2: 2.801 testing.metrics.distance2-1: 5.397 testing.reconstruction_error: 0.147
+
+Epoch 44: training.loss: 0.183 +/- 0.009 training.loss.autoencoder: 0.147 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.845 +/- 4.796 training.metrics.distance1-2: 3.336 +/- 0.625 training.metrics.distance2-1: 5.733 +/- 0.361 training.reconstruction_error: 0.147 +/- 0.007
+Epoch 44: validation.loss: 0.181 validation.loss.autoencoder: 0.145 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 40.824 validation.metrics.distance1-2: 3.372 validation.metrics.distance2-1: 5.692 validation.reconstruction_error: 0.145
+Epoch 44: testing.loss: 0.179 testing.loss.autoencoder: 0.147 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.740 testing.metrics.distance1-2: 2.889 testing.metrics.distance2-1: 5.301 testing.reconstruction_error: 0.147
+
+Epoch 45: training.loss: 0.183 +/- 0.009 training.loss.autoencoder: 0.147 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.998 +/- 4.642 training.metrics.distance1-2: 3.345 +/- 0.644 training.metrics.distance2-1: 5.699 +/- 0.335 training.reconstruction_error: 0.147 +/- 0.007
+Epoch 45: validation.loss: 0.180 validation.loss.autoencoder: 0.144 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.006 validation.metrics.distance1-2: 3.212 validation.metrics.distance2-1: 5.780 validation.reconstruction_error: 0.144
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 45: testing.loss: 0.178 testing.loss.autoencoder: 0.146 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 38.997 testing.metrics.distance1-2: 2.786 testing.metrics.distance2-1: 5.348 testing.reconstruction_error: 0.146
+
+Epoch 46: training.loss: 0.183 +/- 0.009 training.loss.autoencoder: 0.147 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.441 +/- 4.647 training.metrics.distance1-2: 3.316 +/- 0.613 training.metrics.distance2-1: 5.729 +/- 0.358 training.reconstruction_error: 0.147 +/- 0.007
+Epoch 46: validation.loss: 0.179 validation.loss.autoencoder: 0.144 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 39.998 validation.metrics.distance1-2: 3.306 validation.metrics.distance2-1: 5.677 validation.reconstruction_error: 0.144
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 46: testing.loss: 0.178 testing.loss.autoencoder: 0.145 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.451 testing.metrics.distance1-2: 2.867 testing.metrics.distance2-1: 5.291 testing.reconstruction_error: 0.145
+
+Epoch 47: training.loss: 0.182 +/- 0.009 training.loss.autoencoder: 0.146 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.977 +/- 4.866 training.metrics.distance1-2: 3.319 +/- 0.592 training.metrics.distance2-1: 5.724 +/- 0.336 training.reconstruction_error: 0.146 +/- 0.007
+Epoch 47: validation.loss: 0.178 validation.loss.autoencoder: 0.142 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.810 validation.metrics.distance1-2: 3.200 validation.metrics.distance2-1: 5.796 validation.reconstruction_error: 0.142
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 47: testing.loss: 0.177 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.728 testing.metrics.distance1-2: 2.788 testing.metrics.distance2-1: 5.370 testing.reconstruction_error: 0.144
+
+Epoch 48: training.loss: 0.182 +/- 0.009 training.loss.autoencoder: 0.146 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.080 +/- 4.293 training.metrics.distance1-2: 3.312 +/- 0.588 training.metrics.distance2-1: 5.718 +/- 0.334 training.reconstruction_error: 0.146 +/- 0.007
+Epoch 48: validation.loss: 0.178 validation.loss.autoencoder: 0.143 validation.loss.topo_error: 0.072 validation.metrics.matched_pairs_0D: 40.852 validation.metrics.distance1-2: 3.209 validation.metrics.distance2-1: 5.817 validation.reconstruction_error: 0.143
+Epoch 48: testing.loss: 0.177 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.841 testing.metrics.distance1-2: 2.815 testing.metrics.distance2-1: 5.421 testing.reconstruction_error: 0.144
+
+Epoch 49: training.loss: 0.182 +/- 0.008 training.loss.autoencoder: 0.146 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.158 +/- 4.746 training.metrics.distance1-2: 3.324 +/- 0.643 training.metrics.distance2-1: 5.701 +/- 0.328 training.reconstruction_error: 0.146 +/- 0.006
+Epoch 49: validation.loss: 0.178 validation.loss.autoencoder: 0.143 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.642 validation.metrics.distance1-2: 3.264 validation.metrics.distance2-1: 5.626 validation.reconstruction_error: 0.143
+Epoch 49: testing.loss: 0.177 testing.loss.autoencoder: 0.145 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.980 testing.metrics.distance1-2: 2.805 testing.metrics.distance2-1: 5.241 testing.reconstruction_error: 0.145
+
+Epoch 50: training.loss: 0.182 +/- 0.008 training.loss.autoencoder: 0.146 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.773 +/- 4.583 training.metrics.distance1-2: 3.308 +/- 0.599 training.metrics.distance2-1: 5.709 +/- 0.346 training.reconstruction_error: 0.146 +/- 0.006
+Epoch 50: validation.loss: 0.179 validation.loss.autoencoder: 0.143 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.404 validation.metrics.distance1-2: 3.262 validation.metrics.distance2-1: 5.717 validation.reconstruction_error: 0.143
+Epoch 50: testing.loss: 0.177 testing.loss.autoencoder: 0.145 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.992 testing.metrics.distance1-2: 2.809 testing.metrics.distance2-1: 5.295 testing.reconstruction_error: 0.145
+
+Epoch 51: training.loss: 0.181 +/- 0.008 training.loss.autoencoder: 0.145 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.910 +/- 4.715 training.metrics.distance1-2: 3.302 +/- 0.624 training.metrics.distance2-1: 5.711 +/- 0.344 training.reconstruction_error: 0.145 +/- 0.006
+Epoch 51: validation.loss: 0.178 validation.loss.autoencoder: 0.143 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.384 validation.metrics.distance1-2: 3.186 validation.metrics.distance2-1: 5.801 validation.reconstruction_error: 0.143
+Epoch 51: testing.loss: 0.177 testing.loss.autoencoder: 0.145 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.711 testing.metrics.distance1-2: 2.773 testing.metrics.distance2-1: 5.381 testing.reconstruction_error: 0.145
+
+Epoch 52: training.loss: 0.182 +/- 0.009 training.loss.autoencoder: 0.146 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.803 +/- 5.020 training.metrics.distance1-2: 3.293 +/- 0.588 training.metrics.distance2-1: 5.705 +/- 0.358 training.reconstruction_error: 0.146 +/- 0.007
+Epoch 52: validation.loss: 0.177 validation.loss.autoencoder: 0.142 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.222 validation.metrics.distance1-2: 3.173 validation.metrics.distance2-1: 5.794 validation.reconstruction_error: 0.142
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 52: testing.loss: 0.177 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.589 testing.metrics.distance1-2: 2.756 testing.metrics.distance2-1: 5.398 testing.reconstruction_error: 0.144
+
+Epoch 53: training.loss: 0.181 +/- 0.008 training.loss.autoencoder: 0.145 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.366 +/- 4.621 training.metrics.distance1-2: 3.307 +/- 0.586 training.metrics.distance2-1: 5.732 +/- 0.347 training.reconstruction_error: 0.145 +/- 0.006
+Epoch 53: validation.loss: 0.178 validation.loss.autoencoder: 0.142 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.950 validation.metrics.distance1-2: 3.297 validation.metrics.distance2-1: 5.675 validation.reconstruction_error: 0.142
+Epoch 53: testing.loss: 0.176 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.610 testing.metrics.distance1-2: 2.834 testing.metrics.distance2-1: 5.255 testing.reconstruction_error: 0.144
+
+Epoch 54: training.loss: 0.181 +/- 0.009 training.loss.autoencoder: 0.145 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.032 +/- 4.868 training.metrics.distance1-2: 3.285 +/- 0.587 training.metrics.distance2-1: 5.707 +/- 0.349 training.reconstruction_error: 0.145 +/- 0.006
+Epoch 54: validation.loss: 0.177 validation.loss.autoencoder: 0.141 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.908 validation.metrics.distance1-2: 3.273 validation.metrics.distance2-1: 5.695 validation.reconstruction_error: 0.141
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 54: testing.loss: 0.175 testing.loss.autoencoder: 0.143 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.093 testing.metrics.distance1-2: 2.845 testing.metrics.distance2-1: 5.262 testing.reconstruction_error: 0.143
+
+Epoch 55: training.loss: 0.181 +/- 0.008 training.loss.autoencoder: 0.145 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.916 +/- 4.756 training.metrics.distance1-2: 3.296 +/- 0.582 training.metrics.distance2-1: 5.727 +/- 0.351 training.reconstruction_error: 0.145 +/- 0.007
+Epoch 55: validation.loss: 0.178 validation.loss.autoencoder: 0.143 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.614 validation.metrics.distance1-2: 3.199 validation.metrics.distance2-1: 5.705 validation.reconstruction_error: 0.143
+Epoch 55: testing.loss: 0.176 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.778 testing.metrics.distance1-2: 2.794 testing.metrics.distance2-1: 5.293 testing.reconstruction_error: 0.144
+
+Epoch 56: training.loss: 0.180 +/- 0.009 training.loss.autoencoder: 0.145 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.086 +/- 4.818 training.metrics.distance1-2: 3.295 +/- 0.624 training.metrics.distance2-1: 5.685 +/- 0.342 training.reconstruction_error: 0.145 +/- 0.006
+Epoch 56: validation.loss: 0.178 validation.loss.autoencoder: 0.142 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.286 validation.metrics.distance1-2: 3.250 validation.metrics.distance2-1: 5.757 validation.reconstruction_error: 0.142
+Epoch 56: testing.loss: 0.176 testing.loss.autoencoder: 0.144 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.791 testing.metrics.distance1-2: 2.818 testing.metrics.distance2-1: 5.315 testing.reconstruction_error: 0.144
+
+Epoch 57: training.loss: 0.181 +/- 0.009 training.loss.autoencoder: 0.145 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.034 +/- 4.744 training.metrics.distance1-2: 3.319 +/- 0.639 training.metrics.distance2-1: 5.703 +/- 0.349 training.reconstruction_error: 0.145 +/- 0.007
+Epoch 57: validation.loss: 0.176 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.104 validation.metrics.distance1-2: 3.271 validation.metrics.distance2-1: 5.665 validation.reconstruction_error: 0.140
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 57: testing.loss: 0.175 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.156 testing.metrics.distance1-2: 2.848 testing.metrics.distance2-1: 5.265 testing.reconstruction_error: 0.142
+
+Epoch 58: training.loss: 0.180 +/- 0.009 training.loss.autoencoder: 0.144 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.147 +/- 4.823 training.metrics.distance1-2: 3.351 +/- 0.639 training.metrics.distance2-1: 5.690 +/- 0.353 training.reconstruction_error: 0.144 +/- 0.007
+Epoch 58: validation.loss: 0.176 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.810 validation.metrics.distance1-2: 3.212 validation.metrics.distance2-1: 5.727 validation.reconstruction_error: 0.140
+Epoch 58: testing.loss: 0.175 testing.loss.autoencoder: 0.143 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.194 testing.metrics.distance1-2: 2.829 testing.metrics.distance2-1: 5.296 testing.reconstruction_error: 0.143
+
+Epoch 59: training.loss: 0.180 +/- 0.008 training.loss.autoencoder: 0.144 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.987 +/- 4.602 training.metrics.distance1-2: 3.304 +/- 0.581 training.metrics.distance2-1: 5.678 +/- 0.329 training.reconstruction_error: 0.144 +/- 0.006
+Epoch 59: validation.loss: 0.176 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.992 validation.metrics.distance1-2: 3.269 validation.metrics.distance2-1: 5.674 validation.reconstruction_error: 0.140
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 59: testing.loss: 0.175 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.333 testing.metrics.distance1-2: 2.842 testing.metrics.distance2-1: 5.285 testing.reconstruction_error: 0.142
+
+Epoch 60: training.loss: 0.180 +/- 0.008 training.loss.autoencoder: 0.144 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.912 +/- 4.734 training.metrics.distance1-2: 3.306 +/- 0.610 training.metrics.distance2-1: 5.686 +/- 0.329 training.reconstruction_error: 0.144 +/- 0.007
+Epoch 60: validation.loss: 0.176 validation.loss.autoencoder: 0.141 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.852 validation.metrics.distance1-2: 3.296 validation.metrics.distance2-1: 5.689 validation.reconstruction_error: 0.141
+Epoch 60: testing.loss: 0.175 testing.loss.autoencoder: 0.143 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.585 testing.metrics.distance1-2: 2.887 testing.metrics.distance2-1: 5.232 testing.reconstruction_error: 0.143
+
+Epoch 61: training.loss: 0.180 +/- 0.009 training.loss.autoencoder: 0.144 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.830 +/- 5.082 training.metrics.distance1-2: 3.333 +/- 0.634 training.metrics.distance2-1: 5.701 +/- 0.350 training.reconstruction_error: 0.144 +/- 0.007
+Epoch 61: validation.loss: 0.176 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.586 validation.metrics.distance1-2: 3.117 validation.metrics.distance2-1: 5.805 validation.reconstruction_error: 0.140
+Epoch 61: testing.loss: 0.175 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.740 testing.metrics.distance1-2: 2.764 testing.metrics.distance2-1: 5.405 testing.reconstruction_error: 0.142
+
+Epoch 62: training.loss: 0.179 +/- 0.008 training.loss.autoencoder: 0.144 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.002 +/- 4.645 training.metrics.distance1-2: 3.279 +/- 0.619 training.metrics.distance2-1: 5.717 +/- 0.350 training.reconstruction_error: 0.144 +/- 0.006
+Epoch 62: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.908 validation.metrics.distance1-2: 3.255 validation.metrics.distance2-1: 5.699 validation.reconstruction_error: 0.139
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 62: testing.loss: 0.174 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.207 testing.metrics.distance1-2: 2.831 testing.metrics.distance2-1: 5.304 testing.reconstruction_error: 0.141
+
+Epoch 63: training.loss: 0.179 +/- 0.008 training.loss.autoencoder: 0.143 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.817 +/- 4.831 training.metrics.distance1-2: 3.294 +/- 0.615 training.metrics.distance2-1: 5.689 +/- 0.335 training.reconstruction_error: 0.143 +/- 0.006
+Epoch 63: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.544 validation.metrics.distance1-2: 3.316 validation.metrics.distance2-1: 5.625 validation.reconstruction_error: 0.139
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 63: testing.loss: 0.174 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 39.866 testing.metrics.distance1-2: 2.848 testing.metrics.distance2-1: 5.257 testing.reconstruction_error: 0.142
+
+Epoch 64: training.loss: 0.179 +/- 0.009 training.loss.autoencoder: 0.143 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.679 +/- 4.544 training.metrics.distance1-2: 3.328 +/- 0.616 training.metrics.distance2-1: 5.715 +/- 0.356 training.reconstruction_error: 0.143 +/- 0.007
+Epoch 64: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.348 validation.metrics.distance1-2: 3.210 validation.metrics.distance2-1: 5.732 validation.reconstruction_error: 0.139
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 64: testing.loss: 0.174 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.207 testing.metrics.distance1-2: 2.761 testing.metrics.distance2-1: 5.327 testing.reconstruction_error: 0.142
+
+Epoch 65: training.loss: 0.178 +/- 0.009 training.loss.autoencoder: 0.143 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.069 +/- 4.761 training.metrics.distance1-2: 3.250 +/- 0.613 training.metrics.distance2-1: 5.686 +/- 0.351 training.reconstruction_error: 0.143 +/- 0.006
+Epoch 65: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.838 validation.metrics.distance1-2: 3.298 validation.metrics.distance2-1: 5.672 validation.reconstruction_error: 0.139
+Epoch 65: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.534 testing.metrics.distance1-2: 2.832 testing.metrics.distance2-1: 5.266 testing.reconstruction_error: 0.141
+
+Epoch 66: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.143 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.074 +/- 4.813 training.metrics.distance1-2: 3.288 +/- 0.597 training.metrics.distance2-1: 5.677 +/- 0.330 training.reconstruction_error: 0.143 +/- 0.006
+Epoch 66: validation.loss: 0.174 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.384 validation.metrics.distance1-2: 3.219 validation.metrics.distance2-1: 5.696 validation.reconstruction_error: 0.139
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 66: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.900 testing.metrics.distance1-2: 2.809 testing.metrics.distance2-1: 5.296 testing.reconstruction_error: 0.141
+
+Epoch 67: training.loss: 0.178 +/- 0.009 training.loss.autoencoder: 0.143 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.918 +/- 4.595 training.metrics.distance1-2: 3.291 +/- 0.595 training.metrics.distance2-1: 5.698 +/- 0.338 training.reconstruction_error: 0.143 +/- 0.007
+Epoch 67: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.922 validation.metrics.distance1-2: 3.187 validation.metrics.distance2-1: 5.709 validation.reconstruction_error: 0.139
+Epoch 67: testing.loss: 0.174 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.703 testing.metrics.distance1-2: 2.810 testing.metrics.distance2-1: 5.326 testing.reconstruction_error: 0.142
+
+Epoch 68: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.143 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.092 +/- 4.712 training.metrics.distance1-2: 3.266 +/- 0.585 training.metrics.distance2-1: 5.696 +/- 0.345 training.reconstruction_error: 0.143 +/- 0.006
+Epoch 68: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.048 validation.metrics.distance1-2: 3.144 validation.metrics.distance2-1: 5.773 validation.reconstruction_error: 0.139
+Epoch 68: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.484 testing.metrics.distance1-2: 2.794 testing.metrics.distance2-1: 5.361 testing.reconstruction_error: 0.141
+
+Epoch 69: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.143 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.391 +/- 4.796 training.metrics.distance1-2: 3.313 +/- 0.602 training.metrics.distance2-1: 5.693 +/- 0.343 training.reconstruction_error: 0.143 +/- 0.006
+Epoch 69: validation.loss: 0.176 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.073 validation.metrics.matched_pairs_0D: 41.412 validation.metrics.distance1-2: 3.367 validation.metrics.distance2-1: 5.878 validation.reconstruction_error: 0.140
+Epoch 69: testing.loss: 0.176 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.069 testing.metrics.matched_pairs_0D: 40.471 testing.metrics.distance1-2: 3.136 testing.metrics.distance2-1: 5.585 testing.reconstruction_error: 0.141
+
+Epoch 70: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.142 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.147 +/- 4.837 training.metrics.distance1-2: 3.309 +/- 0.612 training.metrics.distance2-1: 5.693 +/- 0.355 training.reconstruction_error: 0.142 +/- 0.006
+Epoch 70: validation.loss: 0.174 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.838 validation.metrics.distance1-2: 3.181 validation.metrics.distance2-1: 5.782 validation.reconstruction_error: 0.138
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 70: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 41.114 testing.metrics.distance1-2: 2.818 testing.metrics.distance2-1: 5.353 testing.reconstruction_error: 0.140
+
+Epoch 71: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.142 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.338 +/- 4.676 training.metrics.distance1-2: 3.355 +/- 0.638 training.metrics.distance2-1: 5.722 +/- 0.350 training.reconstruction_error: 0.142 +/- 0.006
+Epoch 71: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.070 validation.metrics.matched_pairs_0D: 41.356 validation.metrics.distance1-2: 3.168 validation.metrics.distance2-1: 5.685 validation.reconstruction_error: 0.138
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 71: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.164 testing.metrics.distance1-2: 2.782 testing.metrics.distance2-1: 5.293 testing.reconstruction_error: 0.140
+
+Epoch 72: training.loss: 0.178 +/- 0.008 training.loss.autoencoder: 0.142 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.968 +/- 4.924 training.metrics.distance1-2: 3.314 +/- 0.624 training.metrics.distance2-1: 5.711 +/- 0.345 training.reconstruction_error: 0.142 +/- 0.006
+Epoch 72: validation.loss: 0.174 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.642 validation.metrics.distance1-2: 3.202 validation.metrics.distance2-1: 5.714 validation.reconstruction_error: 0.139
+Epoch 72: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.496 testing.metrics.distance1-2: 2.837 testing.metrics.distance2-1: 5.294 testing.reconstruction_error: 0.141
+
+Epoch 73: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.142 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.989 +/- 4.567 training.metrics.distance1-2: 3.273 +/- 0.553 training.metrics.distance2-1: 5.695 +/- 0.326 training.reconstruction_error: 0.142 +/- 0.006
+Epoch 73: validation.loss: 0.174 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.538 validation.metrics.distance1-2: 3.225 validation.metrics.distance2-1: 5.692 validation.reconstruction_error: 0.138
+Epoch 73: testing.loss: 0.173 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.156 testing.metrics.distance1-2: 2.842 testing.metrics.distance2-1: 5.284 testing.reconstruction_error: 0.140
+
+Epoch 74: training.loss: 0.177 +/- 0.009 training.loss.autoencoder: 0.141 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.269 +/- 4.567 training.metrics.distance1-2: 3.295 +/- 0.635 training.metrics.distance2-1: 5.700 +/- 0.349 training.reconstruction_error: 0.141 +/- 0.007
+Epoch 74: validation.loss: 0.175 validation.loss.autoencoder: 0.140 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.992 validation.metrics.distance1-2: 3.252 validation.metrics.distance2-1: 5.698 validation.reconstruction_error: 0.140
+Epoch 74: testing.loss: 0.174 testing.loss.autoencoder: 0.142 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.370 testing.metrics.distance1-2: 2.877 testing.metrics.distance2-1: 5.255 testing.reconstruction_error: 0.142
+
+Epoch 75: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.142 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.095 +/- 4.432 training.metrics.distance1-2: 3.294 +/- 0.621 training.metrics.distance2-1: 5.675 +/- 0.302 training.reconstruction_error: 0.142 +/- 0.006
+Epoch 75: validation.loss: 0.174 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.174 validation.metrics.distance1-2: 3.188 validation.metrics.distance2-1: 5.789 validation.reconstruction_error: 0.138
+Epoch 75: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.270 testing.metrics.distance1-2: 2.806 testing.metrics.distance2-1: 5.369 testing.reconstruction_error: 0.141
+
+Epoch 76: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.895 +/- 4.977 training.metrics.distance1-2: 3.298 +/- 0.597 training.metrics.distance2-1: 5.730 +/- 0.331 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 76: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.342 validation.metrics.distance1-2: 3.179 validation.metrics.distance2-1: 5.712 validation.reconstruction_error: 0.138
+Epoch 76: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.534 testing.metrics.distance1-2: 2.824 testing.metrics.distance2-1: 5.332 testing.reconstruction_error: 0.140
+
+Epoch 77: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.061 +/- 4.578 training.metrics.distance1-2: 3.321 +/- 0.597 training.metrics.distance2-1: 5.723 +/- 0.329 training.reconstruction_error: 0.141 +/- 0.007
+Epoch 77: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.048 validation.metrics.distance1-2: 3.200 validation.metrics.distance2-1: 5.714 validation.reconstruction_error: 0.138
+Epoch 77: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.685 testing.metrics.distance1-2: 2.786 testing.metrics.distance2-1: 5.312 testing.reconstruction_error: 0.141
+
+Epoch 78: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.935 +/- 4.863 training.metrics.distance1-2: 3.262 +/- 0.577 training.metrics.distance2-1: 5.685 +/- 0.335 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 78: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.070 validation.metrics.matched_pairs_0D: 41.594 validation.metrics.distance1-2: 3.225 validation.metrics.distance2-1: 5.655 validation.reconstruction_error: 0.138
+Epoch 78: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.126 testing.metrics.distance1-2: 2.807 testing.metrics.distance2-1: 5.249 testing.reconstruction_error: 0.140
+
+Epoch 79: training.loss: 0.177 +/- 0.009 training.loss.autoencoder: 0.141 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.061 +/- 4.510 training.metrics.distance1-2: 3.304 +/- 0.591 training.metrics.distance2-1: 5.699 +/- 0.360 training.reconstruction_error: 0.141 +/- 0.007
+Epoch 79: validation.loss: 0.175 validation.loss.autoencoder: 0.139 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.118 validation.metrics.distance1-2: 3.195 validation.metrics.distance2-1: 5.768 validation.reconstruction_error: 0.139
+Epoch 79: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.950 testing.metrics.distance1-2: 2.811 testing.metrics.distance2-1: 5.316 testing.reconstruction_error: 0.141
+
+Epoch 80: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.021 +/- 4.776 training.metrics.distance1-2: 3.292 +/- 0.606 training.metrics.distance2-1: 5.682 +/- 0.332 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 80: validation.loss: 0.173 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.230 validation.metrics.distance1-2: 3.169 validation.metrics.distance2-1: 5.764 validation.reconstruction_error: 0.137
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 80: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 39.753 testing.metrics.distance1-2: 2.817 testing.metrics.distance2-1: 5.367 testing.reconstruction_error: 0.140
+
+Epoch 81: training.loss: 0.177 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.748 +/- 4.564 training.metrics.distance1-2: 3.322 +/- 0.603 training.metrics.distance2-1: 5.740 +/- 0.365 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 81: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.062 validation.metrics.distance1-2: 3.185 validation.metrics.distance2-1: 5.745 validation.reconstruction_error: 0.137
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 81: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 41.126 testing.metrics.distance1-2: 2.843 testing.metrics.distance2-1: 5.304 testing.reconstruction_error: 0.140
+
+Epoch 82: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.542 +/- 4.518 training.metrics.distance1-2: 3.252 +/- 0.570 training.metrics.distance2-1: 5.712 +/- 0.354 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 82: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.070 validation.metrics.matched_pairs_0D: 41.342 validation.metrics.distance1-2: 3.207 validation.metrics.distance2-1: 5.674 validation.reconstruction_error: 0.137
+Epoch 82: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.026 testing.metrics.distance1-2: 2.813 testing.metrics.distance2-1: 5.277 testing.reconstruction_error: 0.140
+
+Epoch 83: training.loss: 0.177 +/- 0.009 training.loss.autoencoder: 0.141 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.445 +/- 4.724 training.metrics.distance1-2: 3.266 +/- 0.606 training.metrics.distance2-1: 5.736 +/- 0.351 training.reconstruction_error: 0.141 +/- 0.007
+Epoch 83: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.530 validation.metrics.distance1-2: 3.100 validation.metrics.distance2-1: 5.838 validation.reconstruction_error: 0.138
+Epoch 83: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.152 testing.metrics.distance1-2: 2.761 testing.metrics.distance2-1: 5.355 testing.reconstruction_error: 0.140
+
+Epoch 84: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.141 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.908 +/- 4.646 training.metrics.distance1-2: 3.268 +/- 0.631 training.metrics.distance2-1: 5.692 +/- 0.324 training.reconstruction_error: 0.141 +/- 0.006
+Epoch 84: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.412 validation.metrics.distance1-2: 3.157 validation.metrics.distance2-1: 5.769 validation.reconstruction_error: 0.138
+Epoch 84: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 41.026 testing.metrics.distance1-2: 2.793 testing.metrics.distance2-1: 5.346 testing.reconstruction_error: 0.140
+
+Epoch 85: training.loss: 0.176 +/- 0.009 training.loss.autoencoder: 0.140 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.563 +/- 4.662 training.metrics.distance1-2: 3.296 +/- 0.629 training.metrics.distance2-1: 5.707 +/- 0.356 training.reconstruction_error: 0.140 +/- 0.007
+Epoch 85: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.628 validation.metrics.distance1-2: 3.179 validation.metrics.distance2-1: 5.738 validation.reconstruction_error: 0.138
+Epoch 85: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.013 testing.metrics.distance1-2: 2.828 testing.metrics.distance2-1: 5.267 testing.reconstruction_error: 0.140
+
+Epoch 86: training.loss: 0.176 +/- 0.009 training.loss.autoencoder: 0.140 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.977 +/- 4.547 training.metrics.distance1-2: 3.262 +/- 0.606 training.metrics.distance2-1: 5.687 +/- 0.351 training.reconstruction_error: 0.140 +/- 0.007
+Epoch 86: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.600 validation.metrics.distance1-2: 3.226 validation.metrics.distance2-1: 5.743 validation.reconstruction_error: 0.138
+Epoch 86: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.496 testing.metrics.distance1-2: 2.846 testing.metrics.distance2-1: 5.330 testing.reconstruction_error: 0.140
+
+Epoch 87: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.655 +/- 4.892 training.metrics.distance1-2: 3.256 +/- 0.563 training.metrics.distance2-1: 5.683 +/- 0.335 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 87: validation.loss: 0.173 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.258 validation.metrics.distance1-2: 3.190 validation.metrics.distance2-1: 5.762 validation.reconstruction_error: 0.138
+Epoch 87: testing.loss: 0.172 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.874 testing.metrics.distance1-2: 2.801 testing.metrics.distance2-1: 5.290 testing.reconstruction_error: 0.140
+
+Epoch 88: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.007 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.305 +/- 4.494 training.metrics.distance1-2: 3.313 +/- 0.602 training.metrics.distance2-1: 5.698 +/- 0.330 training.reconstruction_error: 0.140 +/- 0.007
+Epoch 88: validation.loss: 0.174 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.558 validation.metrics.distance1-2: 3.241 validation.metrics.distance2-1: 5.762 validation.reconstruction_error: 0.138
+Epoch 88: testing.loss: 0.173 testing.loss.autoencoder: 0.141 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 41.026 testing.metrics.distance1-2: 2.860 testing.metrics.distance2-1: 5.320 testing.reconstruction_error: 0.141
+
+Epoch 89: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.355 +/- 4.606 training.metrics.distance1-2: 3.280 +/- 0.558 training.metrics.distance2-1: 5.707 +/- 0.325 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 89: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.922 validation.metrics.distance1-2: 3.252 validation.metrics.distance2-1: 5.684 validation.reconstruction_error: 0.137
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 89: testing.loss: 0.171 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.887 testing.metrics.distance1-2: 2.846 testing.metrics.distance2-1: 5.233 testing.reconstruction_error: 0.139
+
+Epoch 90: training.loss: 0.175 +/- 0.009 training.loss.autoencoder: 0.140 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.788 +/- 4.583 training.metrics.distance1-2: 3.253 +/- 0.601 training.metrics.distance2-1: 5.715 +/- 0.354 training.reconstruction_error: 0.140 +/- 0.007
+Epoch 90: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.174 validation.metrics.distance1-2: 3.219 validation.metrics.distance2-1: 5.683 validation.reconstruction_error: 0.137
+Epoch 90: testing.loss: 0.172 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.207 testing.metrics.distance1-2: 2.802 testing.metrics.distance2-1: 5.302 testing.reconstruction_error: 0.139
+
+Epoch 91: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 41.202 +/- 4.738 training.metrics.distance1-2: 3.312 +/- 0.557 training.metrics.distance2-1: 5.714 +/- 0.323 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 91: validation.loss: 0.171 validation.loss.autoencoder: 0.136 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.104 validation.metrics.distance1-2: 3.210 validation.metrics.distance2-1: 5.695 validation.reconstruction_error: 0.136
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 91: testing.loss: 0.170 testing.loss.autoencoder: 0.138 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.635 testing.metrics.distance1-2: 2.803 testing.metrics.distance2-1: 5.289 testing.reconstruction_error: 0.138
+
+Epoch 92: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.074 +/- 4.929 training.metrics.distance1-2: 3.286 +/- 0.579 training.metrics.distance2-1: 5.702 +/- 0.324 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 92: validation.loss: 0.173 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.073 validation.metrics.matched_pairs_0D: 40.670 validation.metrics.distance1-2: 3.387 validation.metrics.distance2-1: 5.869 validation.reconstruction_error: 0.137
+Epoch 92: testing.loss: 0.171 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.055 testing.metrics.distance1-2: 2.823 testing.metrics.distance2-1: 5.296 testing.reconstruction_error: 0.139
+
+Epoch 93: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.092 +/- 4.674 training.metrics.distance1-2: 3.259 +/- 0.578 training.metrics.distance2-1: 5.703 +/- 0.326 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 93: validation.loss: 0.171 validation.loss.autoencoder: 0.136 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.552 validation.metrics.distance1-2: 3.222 validation.metrics.distance2-1: 5.697 validation.reconstruction_error: 0.136
+Epoch 93: testing.loss: 0.171 testing.loss.autoencoder: 0.138 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.837 testing.metrics.distance1-2: 2.797 testing.metrics.distance2-1: 5.311 testing.reconstruction_error: 0.138
+
+Epoch 94: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.139 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.939 +/- 4.729 training.metrics.distance1-2: 3.270 +/- 0.584 training.metrics.distance2-1: 5.715 +/- 0.337 training.reconstruction_error: 0.139 +/- 0.006
+Epoch 94: validation.loss: 0.172 validation.loss.autoencoder: 0.136 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.328 validation.metrics.distance1-2: 3.216 validation.metrics.distance2-1: 5.778 validation.reconstruction_error: 0.136
+Epoch 94: testing.loss: 0.170 testing.loss.autoencoder: 0.138 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.950 testing.metrics.distance1-2: 2.776 testing.metrics.distance2-1: 5.290 testing.reconstruction_error: 0.138
+
+Epoch 95: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.139 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.710 +/- 4.713 training.metrics.distance1-2: 3.245 +/- 0.589 training.metrics.distance2-1: 5.704 +/- 0.331 training.reconstruction_error: 0.139 +/- 0.006
+Epoch 95: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.824 validation.metrics.distance1-2: 3.181 validation.metrics.distance2-1: 5.795 validation.reconstruction_error: 0.137
+Epoch 95: testing.loss: 0.171 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.635 testing.metrics.distance1-2: 2.771 testing.metrics.distance2-1: 5.294 testing.reconstruction_error: 0.139
+
+Epoch 96: training.loss: 0.176 +/- 0.008 training.loss.autoencoder: 0.140 +/- 0.006 training.loss.topo_error: 0.072 +/- 0.006 training.metrics.matched_pairs_0D: 40.582 +/- 4.849 training.metrics.distance1-2: 3.324 +/- 0.620 training.metrics.distance2-1: 5.732 +/- 0.341 training.reconstruction_error: 0.140 +/- 0.006
+Epoch 96: validation.loss: 0.174 validation.loss.autoencoder: 0.138 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.670 validation.metrics.distance1-2: 3.213 validation.metrics.distance2-1: 5.788 validation.reconstruction_error: 0.138
+Epoch 96: testing.loss: 0.173 testing.loss.autoencoder: 0.140 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 40.207 testing.metrics.distance1-2: 2.798 testing.metrics.distance2-1: 5.329 testing.reconstruction_error: 0.140
+
+Epoch 97: training.loss: 0.174 +/- 0.008 training.loss.autoencoder: 0.139 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.074 +/- 4.523 training.metrics.distance1-2: 3.263 +/- 0.572 training.metrics.distance2-1: 5.698 +/- 0.324 training.reconstruction_error: 0.139 +/- 0.006
+Epoch 97: validation.loss: 0.171 validation.loss.autoencoder: 0.135 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.286 validation.metrics.distance1-2: 3.164 validation.metrics.distance2-1: 5.741 validation.reconstruction_error: 0.135
+Saving model to TopoRegEdgeSymmetric_MNIST_test/1/model_state.pth
+Epoch 97: testing.loss: 0.170 testing.loss.autoencoder: 0.138 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 40.900 testing.metrics.distance1-2: 2.772 testing.metrics.distance2-1: 5.322 testing.reconstruction_error: 0.138
+
+Epoch 98: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.139 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 40.815 +/- 4.910 training.metrics.distance1-2: 3.256 +/- 0.585 training.metrics.distance2-1: 5.707 +/- 0.338 training.reconstruction_error: 0.139 +/- 0.006
+Epoch 98: validation.loss: 0.172 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 40.964 validation.metrics.distance1-2: 3.182 validation.metrics.distance2-1: 5.722 validation.reconstruction_error: 0.137
+Epoch 98: testing.loss: 0.171 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.076 testing.metrics.distance1-2: 2.791 testing.metrics.distance2-1: 5.284 testing.reconstruction_error: 0.139
+
+Epoch 99: training.loss: 0.175 +/- 0.008 training.loss.autoencoder: 0.139 +/- 0.006 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.229 +/- 4.617 training.metrics.distance1-2: 3.282 +/- 0.608 training.metrics.distance2-1: 5.698 +/- 0.342 training.reconstruction_error: 0.139 +/- 0.006
+Epoch 99: validation.loss: 0.173 validation.loss.autoencoder: 0.137 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.384 validation.metrics.distance1-2: 3.184 validation.metrics.distance2-1: 5.806 validation.reconstruction_error: 0.137
+Epoch 99: testing.loss: 0.171 testing.loss.autoencoder: 0.139 testing.loss.topo_error: 0.065 testing.metrics.matched_pairs_0D: 41.227 testing.metrics.distance1-2: 2.783 testing.metrics.distance2-1: 5.347 testing.reconstruction_error: 0.139
+
+Epoch 100: training.loss: 0.174 +/- 0.009 training.loss.autoencoder: 0.139 +/- 0.007 training.loss.topo_error: 0.071 +/- 0.006 training.metrics.matched_pairs_0D: 41.021 +/- 4.560 training.metrics.distance1-2: 3.275 +/- 0.590 training.metrics.distance2-1: 5.687 +/- 0.360 training.reconstruction_error: 0.139 +/- 0.007
+Epoch 100: validation.loss: 0.171 validation.loss.autoencoder: 0.136 validation.loss.topo_error: 0.071 validation.metrics.matched_pairs_0D: 41.216 validation.metrics.distance1-2: 3.203 validation.metrics.distance2-1: 5.707 validation.reconstruction_error: 0.136
+Epoch 100: testing.loss: 0.170 testing.loss.autoencoder: 0.138 testing.loss.topo_error: 0.064 testing.metrics.matched_pairs_0D: 41.114 testing.metrics.distance1-2: 2.787 testing.metrics.distance2-1: 5.282 testing.reconstruction_error: 0.138
+
+Loading model checkpoint prior to evaluation...
+INFO - train - Running evaluation on validation dataset
+INFO - training - Result: {'training.loss': 0.17440673292559736, 'training.loss.autoencoder': 0.13882005092601815, 'training.loss.topo_error': 0.07113108586739092, 'training.metrics.matched_pairs_0D': 41.02100840336134, 'training.metrics.distance1-2': 3.275138708222814, 'training.metrics.distance2-1': 5.687378098984726, 'training.reconstruction_error': 0.13882005092601815, 'validation_stress': 17.975060128695507, 'validation_rmse': 19.566076734704584, 'validation_density_global': 0.38103247523350836, 'validation_density_kl_global': 0.11063982952475757, 'validation_density_kl_global_10': 1.1089140457202445e-05, 'validation_density_kl_global_1': 0.0011025014640905597, 'validation_density_kl_global_01': 0.11063982952475757, 'validation_density_kl_global_001': 0.3150737410204241, 'validation_density_kl_global_0001': 0.29540305347723006, 'validation_trustworthiness': array([0.95126585, 0.94873129, 0.94640328, 0.94421652, 0.94215546,
+       0.94002353, 0.93795928, 0.93591499, 0.93383083, 0.93176064,
+       0.92958016, 0.92747929, 0.92541224, 0.92335946, 0.92132412,
+       0.91929939, 0.91732788, 0.91532098, 0.9133476 , 0.9114424 ]), 'validation_continuity': array([0.95975397, 0.9530721 , 0.94782124, 0.94349367, 0.93976201,
+       0.93640472, 0.93332837, 0.93043939, 0.92784784, 0.92533688,
+       0.92299303, 0.920677  , 0.91843874, 0.9163525 , 0.91427524,
+       0.91235627, 0.91047403, 0.90868714, 0.90687472, 0.90514948]), 'validation_neighbourhood_loss': array([0.84353333, 0.78247778, 0.74363333, 0.71516944, 0.69250889,
+       0.67539074, 0.66105714, 0.64871528, 0.63843333, 0.62917333,
+       0.62096566, 0.61369259, 0.60746667, 0.6017873 , 0.59674296,
+       0.59229375, 0.5881634 , 0.58447963, 0.58107661, 0.57817278]), 'validation_rank_correlation': array([0.13935167, 0.17169439, 0.18918017, 0.20324389, 0.21409441,
+       0.22491933, 0.23397017, 0.24137388, 0.24782308, 0.25391711,
+       0.25887383, 0.26443859, 0.26972419, 0.27431734, 0.27932427,
+       0.28352593, 0.28747768, 0.29121805, 0.29510336, 0.29890754]), 'validation_mrre': array([[0.04851627, 0.03537501],
+       [0.04970097, 0.03889455],
+       [0.05074974, 0.04144503],
+       [0.05170977, 0.04348067],
+       [0.05259108, 0.0451982 ],
+       [0.0534512 , 0.04671111],
+       [0.05427158, 0.0480737 ],
+       [0.05506447, 0.04932768],
+       [0.05584654, 0.05046517],
+       [0.0566092 , 0.05153955],
+       [0.05737885, 0.0525423 ],
+       [0.05812183, 0.05350532],
+       [0.0588472 , 0.05442442],
+       [0.05955985, 0.05529026],
+       [0.06025894, 0.05613065],
+       [0.06094728, 0.05692234],
+       [0.0616177 , 0.05768884],
+       [0.0622863 , 0.05842144],
+       [0.06294163, 0.05914268],
+       [0.06357831, 0.05983454]]), 'validation_mean_trustworthiness': 0.9308077591669763, 'validation_mean_continuity': 0.9266769165598407, 'validation_mean_neighbourhood_loss': 0.6497466975241315, 'validation_mean_rank_correlation': 0.2461239445559215, 'validation_mean_mrre': 0.05371155476570951}
