@@ -46,17 +46,17 @@
     
         python -m exp.train_model with experiments/train_model/best_runs/FashionMNIST/Vanilla.json device='cpu' --file_storage=Vanilla_FashionMNIST
 
- 7.  TopoRegEdgeSymmetric - CIFAR10
+ 7.  TopoRegEdgeSymmetric - CIFAR
     
-         python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/TopoRegEdgeSymmetric.json device='cuda' --file_storage=TopoRegEdgeSymmetric_CIFAR
+         python -m exp.train_model with experiments/train_model/best_runs/CIFAR/TopoRegEdgeSymmetric.json device='cuda' --file_storage=TopoRegEdgeSymmetric_CIFAR
  
- 8.  LinearAE-TopoRegEdgeSymmetric - CIFAR10 
+ 8.  LinearAE-TopoRegEdgeSymmetric - CIFAR
     
-         python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/LinearAE-TopoRegEdgeSymmetric.json device='cuda' --file_storage=LinearAE-TopoRegEdgeSymmetric_CIFAR10
+         python -m exp.train_model with experiments/train_model/best_runs/CIFAR/LinearAE-TopoRegEdgeSymmetric.json device='cuda' --file_storage=LinearAE-TopoRegEdgeSymmetric_CIFAR
  
-9.  Vanilla - CIFAR10
+9.  Vanilla - CIFAR
     
-        python -m exp.train_model with experiments/train_model/best_runs/CIFAR10/Vanilla.json device='cpu' --file_storage=Vanilla_CIFAR10
+        python -m exp.train_model with experiments/train_model/best_runs/CIFAR/Vanilla.json device='cpu' --file_storage=Vanilla_CIFAR
     
   
    2. Create new model with just the enocder and a classification layer after the final layer of the encoder

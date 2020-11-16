@@ -132,10 +132,6 @@ def train(n_epochs, batch_size, learning_rate, weight_decay, val_size,
     )
     # Run training
     training_loop()
-    
-    model_save = 'model_state.pth'
-    
-    torch.save(model.state_dict(), model_save)
 
     if rundir:
         # Save model state (and entire model)
