@@ -1,0 +1,161 @@
+INFO - training - Running command 'train'
+INFO - training - Started run with ID "1"
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 0: validation.loss: 0.257 validation.reconstruction_error: 0.257
+Epoch 0: testing.loss: 0.256 testing.reconstruction_error: 0.256
+Epoch 1: training.loss: 0.162 +/- 0.020 training.reconstruction_error: 0.162 +/- 0.020
+Epoch 1: validation.loss: 0.149 validation.reconstruction_error: 0.149
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 1: testing.loss: 0.149 testing.reconstruction_error: 0.149
+
+Epoch 2: training.loss: 0.157 +/- 0.012 training.reconstruction_error: 0.157 +/- 0.012
+Epoch 2: validation.loss: 0.161 validation.reconstruction_error: 0.161
+Epoch 2: testing.loss: 0.162 testing.reconstruction_error: 0.162
+
+Epoch 3: training.loss: 0.150 +/- 0.011 training.reconstruction_error: 0.150 +/- 0.011
+Epoch 3: validation.loss: 0.149 validation.reconstruction_error: 0.149
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 3: testing.loss: 0.148 testing.reconstruction_error: 0.148
+
+Epoch 4: training.loss: 0.147 +/- 0.012 training.reconstruction_error: 0.147 +/- 0.012
+Epoch 4: validation.loss: 0.145 validation.reconstruction_error: 0.145
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 4: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 5: training.loss: 0.145 +/- 0.011 training.reconstruction_error: 0.145 +/- 0.011
+Epoch 5: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 5: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 6: training.loss: 0.145 +/- 0.011 training.reconstruction_error: 0.145 +/- 0.011
+Epoch 6: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 6: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 7: training.loss: 0.145 +/- 0.011 training.reconstruction_error: 0.145 +/- 0.011
+Epoch 7: validation.loss: 0.143 validation.reconstruction_error: 0.143
+Epoch 7: testing.loss: 0.143 testing.reconstruction_error: 0.143
+
+Epoch 8: training.loss: 0.144 +/- 0.012 training.reconstruction_error: 0.144 +/- 0.012
+Epoch 8: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 8: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 9: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 9: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 9: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 10: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 10: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 10: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 11: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 11: validation.loss: 0.145 validation.reconstruction_error: 0.145
+Epoch 11: testing.loss: 0.145 testing.reconstruction_error: 0.145
+
+Epoch 12: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 12: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Epoch 12: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 13: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 13: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Epoch 13: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 14: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 14: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Epoch 14: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 15: training.loss: 0.142 +/- 0.011 training.reconstruction_error: 0.142 +/- 0.011
+Epoch 15: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 15: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 16: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 16: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 16: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 17: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 17: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 17: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 18: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 18: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Saving model to Vanilla_CIFAR/1/model_state.pth
+Epoch 18: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 19: training.loss: 0.145 +/- 0.011 training.reconstruction_error: 0.145 +/- 0.011
+Epoch 19: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 19: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 20: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 20: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 20: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 21: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 21: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Epoch 21: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 22: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 22: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Epoch 22: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 23: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 23: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Epoch 23: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 24: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 24: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 24: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 25: training.loss: 0.144 +/- 0.011 training.reconstruction_error: 0.144 +/- 0.011
+Epoch 25: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Epoch 25: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 26: training.loss: 0.143 +/- 0.011 training.reconstruction_error: 0.143 +/- 0.011
+Epoch 26: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 26: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 27: training.loss: 0.142 +/- 0.010 training.reconstruction_error: 0.142 +/- 0.010
+Epoch 27: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 27: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 28: training.loss: 0.142 +/- 0.011 training.reconstruction_error: 0.142 +/- 0.011
+Epoch 28: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Stopping training due to non-decreasing validation loss over 10 epochs
+Epoch 28: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Loading model checkpoint prior to evaluation...
+WARNING - matplotlib.legend - No handles with labels found to put in legend.
+INFO - train - Running evaluation on validation dataset
+INFO - training - Result: {'training.loss': 0.141842841485081, 'training.reconstruction_error': 0.141842841485081, 'validation_stress': 12.000182602932627, 'validation_rmse': 36.32765263909386, 'validation_density_global': 0.19097722842284798, 'validation_density_kl_global': 0.029332656341921816, 'validation_density_kl_global_10': 5.071338108828896e-06, 'validation_density_kl_global_1': 0.00047332577338737934, 'validation_density_kl_global_01': 0.029332656341921816, 'validation_density_kl_global_001': 0.6187027769274649, 'validation_density_kl_global_0001': 0.37938091829635945, 'validation_trustworthiness': array([0.86196596, 0.86130404, 0.86078566, 0.86052919, 0.86026274,
+       0.86008361, 0.8598739 , 0.85961144, 0.85948224, 0.85914716,
+       0.85898163, 0.85877275, 0.85848074, 0.85814883, 0.85797371,
+       0.85777832, 0.85755133, 0.85738345, 0.857226  , 0.85699403]), 'validation_continuity': array([0.88417417, 0.87451011, 0.86887872, 0.86466082, 0.86138407,
+       0.85864441, 0.85637492, 0.85414386, 0.85221367, 0.85057397,
+       0.84902334, 0.84765865, 0.84634663, 0.84506415, 0.84404047,
+       0.84306242, 0.84216198, 0.84117053, 0.84031938, 0.83950474]), 'validation_neighbourhood_loss': array([0.95346667, 0.92837333, 0.90992   , 0.89493   , 0.88095467,
+       0.86882444, 0.85797143, 0.847925  , 0.83861037, 0.830228  ,
+       0.82226788, 0.81455889, 0.80740513, 0.80061143, 0.79440711,
+       0.78829583, 0.78240549, 0.77694148, 0.77148421, 0.766302  ]), 'validation_rank_correlation': array([0.09645865, 0.11197367, 0.11753424, 0.12445651, 0.12854369,
+       0.1318412 , 0.13457022, 0.13819322, 0.14072836, 0.14321813,
+       0.14562041, 0.14767571, 0.15000007, 0.15247501, 0.1541205 ,
+       0.15564589, 0.15700754, 0.15933273, 0.16082346, 0.16257097]), 'validation_mrre': array([[0.13792942, 0.10777949],
+       [0.1384677 , 0.11302514],
+       [0.1389061 , 0.11618063],
+       [0.13923915, 0.11851327],
+       [0.13954594, 0.12035468],
+       [0.13981587, 0.12189744],
+       [0.14008049, 0.12321023],
+       [0.14034453, 0.1244193 ],
+       [0.1405734 , 0.12549485],
+       [0.14083486, 0.12645194],
+       [0.14105861, 0.12734097],
+       [0.14128522, 0.12815286],
+       [0.14152245, 0.12891841],
+       [0.14176363, 0.12964769],
+       [0.14197293, 0.13030233],
+       [0.14218223, 0.13092452],
+       [0.1423937 , 0.13151095],
+       [0.14259212, 0.13209346],
+       [0.14278586, 0.13263503],
+       [0.14298907, 0.13315414]]), 'validation_mean_trustworthiness': 0.8591168370224841, 'validation_mean_continuity': 0.8531955500801061, 'validation_mean_neighbourhood_loss': 0.8367941680577274, 'validation_mean_rank_correlation': 0.14063950891641872, 'validation_mean_mrre': 0.13295726457614246}

@@ -1,0 +1,326 @@
+{
+  "artifacts": [],
+  "command": "train",
+  "experiment": {
+    "base_dir": "/Users/williamstanford/CS790-TopoAE_Classification/exp",
+    "dependencies": [
+      "numpy==1.18.0",
+      "pandas==1.0.3",
+      "sacred==0.7.4",
+      "torch==1.6.0"
+    ],
+    "mainfile": "train_model.py",
+    "name": "training",
+    "repositories": [
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      },
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      },
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      },
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      },
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      },
+      {
+        "commit": "517cda80cb420c11c945e97be8a05ba45badd2a2",
+        "dirty": false,
+        "url": "https://github.com/WilliamStanford/CS790-TopoAE_Classification.git"
+      }
+    ],
+    "sources": [
+      [
+        "__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "callbacks.py",
+        "_sources/callbacks_aa2a099ca5aa5306fadc97c848fd96d4.py"
+      ],
+      [
+        "ingredients/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "ingredients/dataset.py",
+        "_sources/dataset_b2681a094053ed36f2a04319b13f4bb3.py"
+      ],
+      [
+        "ingredients/model.py",
+        "_sources/model_fc5c89c0606a9f1e7603a77ad4a6593c.py"
+      ],
+      [
+        "train_model.py",
+        "_sources/train_model_01bf0fb978628f90da31f329f44855f1.py"
+      ]
+    ]
+  },
+  "heartbeat": "2020-11-17T22:45:19.152508",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz",
+    "hostname": "Williams-MBP",
+    "os": [
+      "Darwin",
+      "Darwin-18.7.0-x86_64-i386-64bit"
+    ],
+    "python_version": "3.7.3"
+  },
+  "meta": {
+    "command": "train",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": "Vanilla_MNIST",
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "experiments/train_model/best_runs/MNIST/Vanilla.json",
+        "device=cpu"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": {
+    "training.loss": 0.13706286811440654,
+    "training.reconstruction_error": 0.13706286811440654,
+    "validation_continuity": {
+      "dtype": "float64",
+      "py/object": "numpy.ndarray",
+      "values": [
+        0.9536830170478787,
+        0.9444405838303882,
+        0.937469440773623,
+        0.931793799678083,
+        0.9267847057724989,
+        0.9222037325950452,
+        0.9179480533270515,
+        0.9140832347917488,
+        0.9104204123953987,
+        0.9069374965315052,
+        0.9035961560251333,
+        0.9005556016445041,
+        0.8975586677946835,
+        0.8946711584980998,
+        0.8918751350609827,
+        0.8891800112259071,
+        0.8865954182217992,
+        0.8841090226201916,
+        0.8816764954154852,
+        0.8793472611452765
+      ]
+    },
+    "validation_density_global": 0.38080153870204203,
+    "validation_density_kl_global": 0.11886529565525261,
+    "validation_density_kl_global_0001": 0.37110579085430206,
+    "validation_density_kl_global_001": 0.5210006512834002,
+    "validation_density_kl_global_01": 0.11886529565525261,
+    "validation_density_kl_global_1": 0.0011989562075711575,
+    "validation_density_kl_global_10": 1.2262747749310196e-05,
+    "validation_mean_continuity": 0.9087464702197643,
+    "validation_mean_mrre": 0.05598576505366186,
+    "validation_mean_neighbourhood_loss": 0.6148620688541768,
+    "validation_mean_rank_correlation": 0.27513167496977237,
+    "validation_mean_trustworthiness": 0.9394482570897524,
+    "validation_mrre": {
+      "dtype": "float64",
+      "py/object": "numpy.ndarray",
+      "values": [
+        [
+          0.045678602394482376,
+          0.040148502650146876
+        ],
+        [
+          0.04646784895862853,
+          0.04479437445837036
+        ],
+        [
+          0.04721551137137444,
+          0.04810488117532014
+        ],
+        [
+          0.04788683053077615,
+          0.05072780832291332
+        ],
+        [
+          0.048529275691001544,
+          0.052963792069827334
+        ],
+        [
+          0.049178737952178746,
+          0.05494601359989089
+        ],
+        [
+          0.04980296198520018,
+          0.056745119564535006
+        ],
+        [
+          0.05041765895065203,
+          0.05837288749775516
+        ],
+        [
+          0.05102450896176345,
+          0.059885105405630426
+        ],
+        [
+          0.05160030370284682,
+          0.06130086960765265
+        ],
+        [
+          0.05218388823185135,
+          0.06263833301422311
+        ],
+        [
+          0.05275739521315605,
+          0.06387475712589581
+        ],
+        [
+          0.05333042447511645,
+          0.06506324824232208
+        ],
+        [
+          0.0538958318202952,
+          0.06619828600654347
+        ],
+        [
+          0.054459184868472975,
+          0.0672860193039083
+        ],
+        [
+          0.05501918876563804,
+          0.06832854366414937
+        ],
+        [
+          0.05558875461743852,
+          0.06932732152445928
+        ],
+        [
+          0.05614581583033609,
+          0.07028637620601898
+        ],
+        [
+          0.05669068855023664,
+          0.07121564443821181
+        ],
+        [
+          0.05724108763898203,
+          0.07210821775827238
+        ]
+      ]
+    },
+    "validation_neighbourhood_loss": {
+      "dtype": "float64",
+      "py/object": "numpy.ndarray",
+      "values": [
+        0.8292444444444461,
+        0.7621499999999998,
+        0.7189222222222235,
+        0.6865055555555556,
+        0.6614355555555486,
+        0.6417648148148154,
+        0.6254968253968249,
+        0.6116819444444446,
+        0.6006740740740734,
+        0.5908066666666651,
+        0.582161616161617,
+        0.5744796296296284,
+        0.5680222222222264,
+        0.5622031746031757,
+        0.5569792592592642,
+        0.5523708333333339,
+        0.5482607843137319,
+        0.5446722222222214,
+        0.5411350877192966,
+        0.5382744444444447
+      ]
+    },
+    "validation_rank_correlation": {
+      "dtype": "float64",
+      "py/object": "numpy.ndarray",
+      "values": [
+        0.15976827168363558,
+        0.1948211477958651,
+        0.2148926183296819,
+        0.22966211469107373,
+        0.2416991310607788,
+        0.2532385115499723,
+        0.2616303509448556,
+        0.269569844941736,
+        0.27793900959850565,
+        0.284944558453983,
+        0.2909205411238353,
+        0.29593128933656615,
+        0.3014040998247141,
+        0.30584821628216796,
+        0.3103449869082824,
+        0.3146839726304239,
+        0.3184791412148714,
+        0.32230284803481524,
+        0.3256111159545202,
+        0.32894172903516194
+      ]
+    },
+    "validation_rmse": 18.106454775665764,
+    "validation_stress": 6.664418227906348,
+    "validation_trustworthiness": {
+      "dtype": "float64",
+      "py/object": "numpy.ndarray",
+      "values": [
+        0.9536652865119558,
+        0.952506274968876,
+        0.9510214967438263,
+        0.949645599741472,
+        0.9482322097098499,
+        0.9466826412921705,
+        0.9451616968574301,
+        0.943610964550056,
+        0.942025677675344,
+        0.9405406022939149,
+        0.9389614327667415,
+        0.937385954524171,
+        0.9357681618713818,
+        0.934150001218987,
+        0.932507863738147,
+        0.9308477480005835,
+        0.9290999932357108,
+        0.9273978525349337,
+        0.9257387713359364,
+        0.9240149122235632
+      ]
+    }
+  },
+  "start_time": "2020-11-17T20:31:51.338197",
+  "status": "COMPLETED",
+  "stop_time": "2020-11-17T22:45:19.133343"
+}

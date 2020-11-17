@@ -1,0 +1,463 @@
+INFO - training - Running command 'train'
+INFO - training - Started run with ID "1"
+Epoch 0: validation.loss: 0.923 validation.reconstruction_error: 0.923
+Epoch 0: testing.loss: 0.923 testing.reconstruction_error: 0.923
+Epoch 1: training.loss: 0.408 +/- 0.144 training.reconstruction_error: 0.408 +/- 0.144
+Epoch 1: validation.loss: 0.284 validation.reconstruction_error: 0.284
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 1: testing.loss: 0.282 testing.reconstruction_error: 0.282
+
+Epoch 2: training.loss: 0.285 +/- 0.037 training.reconstruction_error: 0.285 +/- 0.037
+Epoch 2: validation.loss: 0.223 validation.reconstruction_error: 0.223
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 2: testing.loss: 0.225 testing.reconstruction_error: 0.225
+
+Epoch 3: training.loss: 0.223 +/- 0.025 training.reconstruction_error: 0.223 +/- 0.025
+Epoch 3: validation.loss: 0.204 validation.reconstruction_error: 0.204
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 3: testing.loss: 0.208 testing.reconstruction_error: 0.208
+
+Epoch 4: training.loss: 0.190 +/- 0.010 training.reconstruction_error: 0.190 +/- 0.010
+Epoch 4: validation.loss: 0.198 validation.reconstruction_error: 0.198
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 4: testing.loss: 0.201 testing.reconstruction_error: 0.201
+
+Epoch 5: training.loss: 0.184 +/- 0.010 training.reconstruction_error: 0.184 +/- 0.010
+Epoch 5: validation.loss: 0.187 validation.reconstruction_error: 0.187
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 5: testing.loss: 0.190 testing.reconstruction_error: 0.190
+
+Epoch 6: training.loss: 0.179 +/- 0.010 training.reconstruction_error: 0.179 +/- 0.010
+Epoch 6: validation.loss: 0.188 validation.reconstruction_error: 0.188
+Epoch 6: testing.loss: 0.189 testing.reconstruction_error: 0.189
+
+Epoch 7: training.loss: 0.174 +/- 0.010 training.reconstruction_error: 0.174 +/- 0.010
+Epoch 7: validation.loss: 0.172 validation.reconstruction_error: 0.172
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 7: testing.loss: 0.174 testing.reconstruction_error: 0.174
+
+Epoch 8: training.loss: 0.171 +/- 0.010 training.reconstruction_error: 0.171 +/- 0.010
+Epoch 8: validation.loss: 0.173 validation.reconstruction_error: 0.173
+Epoch 8: testing.loss: 0.176 testing.reconstruction_error: 0.176
+
+Epoch 9: training.loss: 0.168 +/- 0.010 training.reconstruction_error: 0.168 +/- 0.010
+Epoch 9: validation.loss: 0.167 validation.reconstruction_error: 0.167
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 9: testing.loss: 0.168 testing.reconstruction_error: 0.168
+
+Epoch 10: training.loss: 0.166 +/- 0.010 training.reconstruction_error: 0.166 +/- 0.010
+Epoch 10: validation.loss: 0.161 validation.reconstruction_error: 0.161
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 10: testing.loss: 0.162 testing.reconstruction_error: 0.162
+
+Epoch 11: training.loss: 0.163 +/- 0.010 training.reconstruction_error: 0.163 +/- 0.010
+Epoch 11: validation.loss: 0.157 validation.reconstruction_error: 0.157
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 11: testing.loss: 0.158 testing.reconstruction_error: 0.158
+
+Epoch 12: training.loss: 0.162 +/- 0.010 training.reconstruction_error: 0.162 +/- 0.010
+Epoch 12: validation.loss: 0.162 validation.reconstruction_error: 0.162
+Epoch 12: testing.loss: 0.164 testing.reconstruction_error: 0.164
+
+Epoch 13: training.loss: 0.161 +/- 0.010 training.reconstruction_error: 0.161 +/- 0.010
+Epoch 13: validation.loss: 0.154 validation.reconstruction_error: 0.154
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 13: testing.loss: 0.155 testing.reconstruction_error: 0.155
+
+Epoch 14: training.loss: 0.159 +/- 0.009 training.reconstruction_error: 0.159 +/- 0.009
+Epoch 14: validation.loss: 0.155 validation.reconstruction_error: 0.155
+Epoch 14: testing.loss: 0.156 testing.reconstruction_error: 0.156
+
+Epoch 15: training.loss: 0.157 +/- 0.009 training.reconstruction_error: 0.157 +/- 0.009
+Epoch 15: validation.loss: 0.152 validation.reconstruction_error: 0.152
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 15: testing.loss: 0.153 testing.reconstruction_error: 0.153
+
+Epoch 16: training.loss: 0.156 +/- 0.010 training.reconstruction_error: 0.156 +/- 0.010
+Epoch 16: validation.loss: 0.149 validation.reconstruction_error: 0.149
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 16: testing.loss: 0.150 testing.reconstruction_error: 0.150
+
+Epoch 17: training.loss: 0.156 +/- 0.009 training.reconstruction_error: 0.156 +/- 0.009
+Epoch 17: validation.loss: 0.148 validation.reconstruction_error: 0.148
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 17: testing.loss: 0.150 testing.reconstruction_error: 0.150
+
+Epoch 18: training.loss: 0.154 +/- 0.009 training.reconstruction_error: 0.154 +/- 0.009
+Epoch 18: validation.loss: 0.147 validation.reconstruction_error: 0.147
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 18: testing.loss: 0.149 testing.reconstruction_error: 0.149
+
+Epoch 19: training.loss: 0.153 +/- 0.009 training.reconstruction_error: 0.153 +/- 0.009
+Epoch 19: validation.loss: 0.148 validation.reconstruction_error: 0.148
+Epoch 19: testing.loss: 0.150 testing.reconstruction_error: 0.150
+
+Epoch 20: training.loss: 0.153 +/- 0.009 training.reconstruction_error: 0.153 +/- 0.009
+Epoch 20: validation.loss: 0.145 validation.reconstruction_error: 0.145
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 20: testing.loss: 0.147 testing.reconstruction_error: 0.147
+
+Epoch 21: training.loss: 0.152 +/- 0.009 training.reconstruction_error: 0.152 +/- 0.009
+Epoch 21: validation.loss: 0.145 validation.reconstruction_error: 0.145
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 21: testing.loss: 0.147 testing.reconstruction_error: 0.147
+
+Epoch 22: training.loss: 0.151 +/- 0.009 training.reconstruction_error: 0.151 +/- 0.009
+Epoch 22: validation.loss: 0.143 validation.reconstruction_error: 0.143
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 22: testing.loss: 0.146 testing.reconstruction_error: 0.146
+
+Epoch 23: training.loss: 0.150 +/- 0.009 training.reconstruction_error: 0.150 +/- 0.009
+Epoch 23: validation.loss: 0.143 validation.reconstruction_error: 0.143
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 23: testing.loss: 0.146 testing.reconstruction_error: 0.146
+
+Epoch 24: training.loss: 0.150 +/- 0.009 training.reconstruction_error: 0.150 +/- 0.009
+Epoch 24: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 24: testing.loss: 0.145 testing.reconstruction_error: 0.145
+
+Epoch 25: training.loss: 0.149 +/- 0.008 training.reconstruction_error: 0.149 +/- 0.008
+Epoch 25: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 25: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 26: training.loss: 0.149 +/- 0.009 training.reconstruction_error: 0.149 +/- 0.009
+Epoch 26: validation.loss: 0.143 validation.reconstruction_error: 0.143
+Epoch 26: testing.loss: 0.145 testing.reconstruction_error: 0.145
+
+Epoch 27: training.loss: 0.149 +/- 0.009 training.reconstruction_error: 0.149 +/- 0.009
+Epoch 27: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 27: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 28: training.loss: 0.148 +/- 0.009 training.reconstruction_error: 0.148 +/- 0.009
+Epoch 28: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Epoch 28: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 29: training.loss: 0.148 +/- 0.009 training.reconstruction_error: 0.148 +/- 0.009
+Epoch 29: validation.loss: 0.142 validation.reconstruction_error: 0.142
+Epoch 29: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 30: training.loss: 0.147 +/- 0.009 training.reconstruction_error: 0.147 +/- 0.009
+Epoch 30: validation.loss: 0.141 validation.reconstruction_error: 0.141
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 30: testing.loss: 0.144 testing.reconstruction_error: 0.144
+
+Epoch 31: training.loss: 0.147 +/- 0.009 training.reconstruction_error: 0.147 +/- 0.009
+Epoch 31: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 31: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 32: training.loss: 0.146 +/- 0.009 training.reconstruction_error: 0.146 +/- 0.009
+Epoch 32: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 32: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 33: training.loss: 0.146 +/- 0.009 training.reconstruction_error: 0.146 +/- 0.009
+Epoch 33: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 33: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 34: training.loss: 0.146 +/- 0.009 training.reconstruction_error: 0.146 +/- 0.009
+Epoch 34: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 34: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 35: training.loss: 0.145 +/- 0.009 training.reconstruction_error: 0.145 +/- 0.009
+Epoch 35: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 35: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 36: training.loss: 0.145 +/- 0.009 training.reconstruction_error: 0.145 +/- 0.009
+Epoch 36: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 36: testing.loss: 0.143 testing.reconstruction_error: 0.143
+
+Epoch 37: training.loss: 0.145 +/- 0.008 training.reconstruction_error: 0.145 +/- 0.008
+Epoch 37: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 37: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 38: training.loss: 0.145 +/- 0.009 training.reconstruction_error: 0.145 +/- 0.009
+Epoch 38: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 38: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 39: training.loss: 0.144 +/- 0.009 training.reconstruction_error: 0.144 +/- 0.009
+Epoch 39: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 39: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 40: training.loss: 0.144 +/- 0.008 training.reconstruction_error: 0.144 +/- 0.008
+Epoch 40: validation.loss: 0.139 validation.reconstruction_error: 0.139
+Epoch 40: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 41: training.loss: 0.144 +/- 0.009 training.reconstruction_error: 0.144 +/- 0.009
+Epoch 41: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 41: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 42: training.loss: 0.143 +/- 0.008 training.reconstruction_error: 0.143 +/- 0.008
+Epoch 42: validation.loss: 0.138 validation.reconstruction_error: 0.138
+Epoch 42: testing.loss: 0.141 testing.reconstruction_error: 0.141
+
+Epoch 43: training.loss: 0.144 +/- 0.009 training.reconstruction_error: 0.144 +/- 0.009
+Epoch 43: validation.loss: 0.140 validation.reconstruction_error: 0.140
+Epoch 43: testing.loss: 0.142 testing.reconstruction_error: 0.142
+
+Epoch 44: training.loss: 0.143 +/- 0.008 training.reconstruction_error: 0.143 +/- 0.008
+Epoch 44: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 44: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 45: training.loss: 0.143 +/- 0.008 training.reconstruction_error: 0.143 +/- 0.008
+Epoch 45: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 45: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 46: training.loss: 0.143 +/- 0.008 training.reconstruction_error: 0.143 +/- 0.008
+Epoch 46: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 46: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 47: training.loss: 0.143 +/- 0.009 training.reconstruction_error: 0.143 +/- 0.009
+Epoch 47: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 47: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 48: training.loss: 0.142 +/- 0.009 training.reconstruction_error: 0.142 +/- 0.009
+Epoch 48: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 48: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 49: training.loss: 0.142 +/- 0.009 training.reconstruction_error: 0.142 +/- 0.009
+Epoch 49: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 49: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 50: training.loss: 0.142 +/- 0.009 training.reconstruction_error: 0.142 +/- 0.009
+Epoch 50: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 50: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 51: training.loss: 0.142 +/- 0.009 training.reconstruction_error: 0.142 +/- 0.009
+Epoch 51: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 51: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 52: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 52: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 52: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 53: training.loss: 0.141 +/- 0.008 training.reconstruction_error: 0.141 +/- 0.008
+Epoch 53: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Epoch 53: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 54: training.loss: 0.142 +/- 0.009 training.reconstruction_error: 0.142 +/- 0.009
+Epoch 54: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 54: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 55: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 55: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 55: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 56: training.loss: 0.141 +/- 0.008 training.reconstruction_error: 0.141 +/- 0.008
+Epoch 56: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 56: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 57: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 57: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 57: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 58: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 58: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 58: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 59: training.loss: 0.141 +/- 0.008 training.reconstruction_error: 0.141 +/- 0.008
+Epoch 59: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Epoch 59: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 60: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 60: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 60: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 61: training.loss: 0.141 +/- 0.009 training.reconstruction_error: 0.141 +/- 0.009
+Epoch 61: validation.loss: 0.137 validation.reconstruction_error: 0.137
+Epoch 61: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 62: training.loss: 0.140 +/- 0.008 training.reconstruction_error: 0.140 +/- 0.008
+Epoch 62: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 62: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 63: training.loss: 0.140 +/- 0.009 training.reconstruction_error: 0.140 +/- 0.009
+Epoch 63: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 63: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 64: training.loss: 0.140 +/- 0.009 training.reconstruction_error: 0.140 +/- 0.009
+Epoch 64: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 64: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 65: training.loss: 0.140 +/- 0.008 training.reconstruction_error: 0.140 +/- 0.008
+Epoch 65: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 65: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 66: training.loss: 0.140 +/- 0.009 training.reconstruction_error: 0.140 +/- 0.009
+Epoch 66: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Epoch 66: testing.loss: 0.139 testing.reconstruction_error: 0.139
+
+Epoch 67: training.loss: 0.139 +/- 0.009 training.reconstruction_error: 0.139 +/- 0.009
+Epoch 67: validation.loss: 0.136 validation.reconstruction_error: 0.136
+Epoch 67: testing.loss: 0.140 testing.reconstruction_error: 0.140
+
+Epoch 68: training.loss: 0.140 +/- 0.008 training.reconstruction_error: 0.140 +/- 0.008
+Epoch 68: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 68: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 69: training.loss: 0.139 +/- 0.009 training.reconstruction_error: 0.139 +/- 0.009
+Epoch 69: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 69: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 70: training.loss: 0.140 +/- 0.008 training.reconstruction_error: 0.140 +/- 0.008
+Epoch 70: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 70: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 71: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 71: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 71: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 72: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 72: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 72: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 73: training.loss: 0.139 +/- 0.009 training.reconstruction_error: 0.139 +/- 0.009
+Epoch 73: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 73: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 74: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 74: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 74: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 75: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 75: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 75: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 76: training.loss: 0.140 +/- 0.009 training.reconstruction_error: 0.140 +/- 0.009
+Epoch 76: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 76: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 77: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 77: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 77: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 78: training.loss: 0.139 +/- 0.008 training.reconstruction_error: 0.139 +/- 0.008
+Epoch 78: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 78: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 79: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 79: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 79: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 80: training.loss: 0.138 +/- 0.009 training.reconstruction_error: 0.138 +/- 0.009
+Epoch 80: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 80: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 81: training.loss: 0.139 +/- 0.009 training.reconstruction_error: 0.139 +/- 0.009
+Epoch 81: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 81: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 82: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 82: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 82: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 83: training.loss: 0.139 +/- 0.009 training.reconstruction_error: 0.139 +/- 0.009
+Epoch 83: validation.loss: 0.134 validation.reconstruction_error: 0.134
+Epoch 83: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 84: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 84: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 84: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 85: training.loss: 0.138 +/- 0.009 training.reconstruction_error: 0.138 +/- 0.009
+Epoch 85: validation.loss: 0.132 validation.reconstruction_error: 0.132
+Saving model to Vanilla_MNIST/1/model_state.pth
+Epoch 85: testing.loss: 0.135 testing.reconstruction_error: 0.135
+
+Epoch 86: training.loss: 0.138 +/- 0.009 training.reconstruction_error: 0.138 +/- 0.009
+Epoch 86: validation.loss: 0.132 validation.reconstruction_error: 0.132
+Epoch 86: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 87: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 87: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 87: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 88: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 88: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 88: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 89: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 89: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 89: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 90: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 90: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 90: testing.loss: 0.138 testing.reconstruction_error: 0.138
+
+Epoch 91: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 91: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 91: testing.loss: 0.136 testing.reconstruction_error: 0.136
+
+Epoch 92: training.loss: 0.138 +/- 0.008 training.reconstruction_error: 0.138 +/- 0.008
+Epoch 92: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 92: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 93: training.loss: 0.138 +/- 0.009 training.reconstruction_error: 0.138 +/- 0.009
+Epoch 93: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 93: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 94: training.loss: 0.137 +/- 0.009 training.reconstruction_error: 0.137 +/- 0.009
+Epoch 94: validation.loss: 0.133 validation.reconstruction_error: 0.133
+Epoch 94: testing.loss: 0.137 testing.reconstruction_error: 0.137
+
+Epoch 95: training.loss: 0.137 +/- 0.008 training.reconstruction_error: 0.137 +/- 0.008
+Epoch 95: validation.loss: 0.132 validation.reconstruction_error: 0.132
+Stopping training due to non-decreasing validation loss over 10 epochs
+Epoch 95: testing.loss: 0.135 testing.reconstruction_error: 0.135
+
+Loading model checkpoint prior to evaluation...
+WARNING - matplotlib.legend - No handles with labels found to put in legend.
+INFO - train - Running evaluation on validation dataset
+INFO - training - Result: {'training.loss': 0.13706286811440654, 'training.reconstruction_error': 0.13706286811440654, 'validation_stress': 6.664418227906348, 'validation_rmse': 18.106454775665764, 'validation_density_global': 0.38080153870204203, 'validation_density_kl_global': 0.11886529565525261, 'validation_density_kl_global_10': 1.2262747749310196e-05, 'validation_density_kl_global_1': 0.0011989562075711575, 'validation_density_kl_global_01': 0.11886529565525261, 'validation_density_kl_global_001': 0.5210006512834002, 'validation_density_kl_global_0001': 0.37110579085430206, 'validation_trustworthiness': array([0.95366529, 0.95250627, 0.9510215 , 0.9496456 , 0.94823221,
+       0.94668264, 0.9451617 , 0.94361096, 0.94202568, 0.9405406 ,
+       0.93896143, 0.93738595, 0.93576816, 0.93415   , 0.93250786,
+       0.93084775, 0.92909999, 0.92739785, 0.92573877, 0.92401491]), 'validation_continuity': array([0.95368302, 0.94444058, 0.93746944, 0.9317938 , 0.92678471,
+       0.92220373, 0.91794805, 0.91408323, 0.91042041, 0.9069375 ,
+       0.90359616, 0.9005556 , 0.89755867, 0.89467116, 0.89187514,
+       0.88918001, 0.88659542, 0.88410902, 0.8816765 , 0.87934726]), 'validation_neighbourhood_loss': array([0.82924444, 0.76215   , 0.71892222, 0.68650556, 0.66143556,
+       0.64176481, 0.62549683, 0.61168194, 0.60067407, 0.59080667,
+       0.58216162, 0.57447963, 0.56802222, 0.56220317, 0.55697926,
+       0.55237083, 0.54826078, 0.54467222, 0.54113509, 0.53827444]), 'validation_rank_correlation': array([0.15976827, 0.19482115, 0.21489262, 0.22966211, 0.24169913,
+       0.25323851, 0.26163035, 0.26956984, 0.27793901, 0.28494456,
+       0.29092054, 0.29593129, 0.3014041 , 0.30584822, 0.31034499,
+       0.31468397, 0.31847914, 0.32230285, 0.32561112, 0.32894173]), 'validation_mrre': array([[0.0456786 , 0.0401485 ],
+       [0.04646785, 0.04479437],
+       [0.04721551, 0.04810488],
+       [0.04788683, 0.05072781],
+       [0.04852928, 0.05296379],
+       [0.04917874, 0.05494601],
+       [0.04980296, 0.05674512],
+       [0.05041766, 0.05837289],
+       [0.05102451, 0.05988511],
+       [0.0516003 , 0.06130087],
+       [0.05218389, 0.06263833],
+       [0.0527574 , 0.06387476],
+       [0.05333042, 0.06506325],
+       [0.05389583, 0.06619829],
+       [0.05445918, 0.06728602],
+       [0.05501919, 0.06832854],
+       [0.05558875, 0.06932732],
+       [0.05614582, 0.07028638],
+       [0.05669069, 0.07121564],
+       [0.05724109, 0.07210822]]), 'validation_mean_trustworthiness': 0.9394482570897524, 'validation_mean_continuity': 0.9087464702197643, 'validation_mean_neighbourhood_loss': 0.6148620688541768, 'validation_mean_rank_correlation': 0.27513167496977237, 'validation_mean_mrre': 0.05598576505366186}
+INFO - training - Completed after 2:13:28
